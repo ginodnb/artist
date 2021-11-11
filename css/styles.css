@@ -54,6 +54,14 @@ font-family: 'Fira Sans', sans-serif;
 
 }
 
+.bottom-container {
+  background-color: #171717;
+  padding-bottom: 50px;
+padding-top: 50px;
+
+
+}
+
 .dj-pic {
   width: 100%;
     opacity: 0.17;
@@ -114,5 +122,19 @@ max-width: 100%;
 .crucast-pic {
   width: 20%;
   float: left;
+
+}
+
+.footer-link {
+margin-right: 2rem;
+margin-left: 2rem;
+margin-top: 1rem;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+text-decoration: none;
+color: #DA0037;
+font-family: 'Fira Sans', sans-serif;
+font-weight: 2rem;
 
 }
