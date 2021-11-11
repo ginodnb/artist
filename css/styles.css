@@ -1,0 +1,118 @@
+h1 {
+  text-align: center;
+font-family: 'Fira Sans', sans-serif;
+  margin: 0 auto 0 auto;
+  color: white;
+
+}
+body {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+hr {
+
+}
+
+h3 {
+font-family: 'Fira Sans', sans-serif;
+}
+
+p {
+font-family: 'Fira Sans', sans-serif;
+    line-height: 2rem;
+    color: white;
+
+}
+/***************CLASS SELECTORS****************/
+
+.top-container {
+  background-color: black;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  padding: 2rem;
+  position: relative;
+
+}
+
+
+.logo {
+  width: 30%;
+}
+
+.middle-container {
+  background-color: #444444;
+  max-width: 100%;
+  padding-bottom: 100%;
+  margin-top: 252.828;
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+
+}
+
+.dj-pic {
+  width: 100%;
+    opacity: 0.17;
+    position: relative;
+      margin-top: 252.828;
+      padding-top: 2rem;
+
+
+
+}
+
+.welcome-text {
+  margin: auto;
+  position: relative;
+
+
+}
+
+.dj-picc {
+  width: 100%;
+    opacity: 0.17;
+    position: relative;
+      margin-top: 252.828;
+      padding-top: 169px;
+
+}
+
+.dj-cont {
+
+}
+
+.welcome-info {
+
+
+}
+
+.text-cont {
+
+top: 10%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 30%;
+text-align: center;
+margin: auto 50% 50% 50%;
+max-width: 100%;
+
+
+
+}
+
+.latest-release {
+  width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.crucast-pic {
+  width: 20%;
+  float: left;
+
+}
