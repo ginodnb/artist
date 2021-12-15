@@ -253,6 +253,7 @@ align-items: center;
 .table {
   padding: 0 0;
 
+
 }
 
 .main {
@@ -301,5 +302,12 @@ align-items: center;
 }
 
 .beatport {
+  width: 100%;
+}
+
+.apple {
+  width: 100%;
+}
+.juno {
   width: 100%;
 }
