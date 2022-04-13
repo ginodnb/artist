@@ -6,19 +6,36 @@
 
       <link rel="stylesheet" href="css/styles.css">
       <link href="https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans&family=Dancing+Script&family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
 
 
   </head>
 
   <body>
+    <header>
+
+
 
 <div class="top-container">
+  <div class="navbar" id="myTopnav">
+    <!-- <div class="navlinks"> -->
+      <a href="/index.html"><li>Home</li></a>
+      <a href="./content.html"><li>Releases</li></a>
+      <a href="#"><li>Merch</li></a>
+      <a href="#"><li>Contact</li></a>
+      <a href="javascript:void(0);" class="icon" onclick="toggle()">
+        <li><i class="fas fa-bars"></i></li>
+      </a>
+    <!-- </div> -->
+  </div>
 
 <img class="logo"src="images/22.jpg" alt="">
 
   <hr>
 </div>
+</header>
+
 
 <div class="middle-container">
   <img class="dj-pic" src="images/It'sAGeeThing-Belgium-@jacklewiswilliams-29.jpg" alt="">
@@ -29,22 +46,6 @@
     <p class="welcome-text">Hello, I'm a Drum and Bass artist from Cambridge, I like all things drum and all things bass, I also built this website.</p>
   </div>
 
-<div class="surprise-pic">
-  <table border="0" width="300" height="300" class="table">
-    <tbody>
-      <tr>
-        <td>
-          <a href="surprise.html">
-            <img  width="100%" height="100%" border="0" src="images/gino trim surprise.jpeg" alt="">
-          </a>
-
-        </td>
-      </tr>
-    </tbody>
-
-  </table>
-
-</div>
   <div class="latest-release">
 
         <h2>Latest Releases</h2>
@@ -74,7 +75,7 @@
           <h2>Sample Pack</h2>
           <img class="sample-pic"src="images/Gino-SQ1.jpg" alt="">
           <p>Introducing Gino, exploding onto the scene in recent years with tracks on labels such as CruCast, Subway Sounds, Audioporn, Charge Recordings and more the Cambridgeshire based drops his first ever sample pack including over 225+ Samples & Presets. Inside the pack features Kicks, Snares, Hats & Percussion, Drum Loops, Serum Presets, Bass Shots, Lead Loops and MANY MORE!</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/2VJ8zquWlqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/2VJ8zquWlqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
           <a class="get-the-pack"href="https://www.bytheproducer.com/products/gino-sample-pack-official">GET THE PACK</a>
         </div>
@@ -93,6 +94,8 @@
   <a class="footer-link" href="https://facebook.com/ginodnb">Website</a>
   <p class="copywrite">© 2021 Gino Arnone.</p>
 </div>
+
+<script src="./app.js"></script>
 
 
   </body>
