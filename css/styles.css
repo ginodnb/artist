@@ -113,14 +113,6 @@ a {
 
 }
 
-.june-dates img {
-  width: 100%;
-  height: 1600px;
-  object-fit: cover;
-  max-width: 900px;
-
-}
-
 .navbar {
   width: 100vw;
   height: 5vh;
@@ -209,9 +201,7 @@ a {
   position: absolute;
   margin-top: 252.828;
   object-fit: cover;
-
-
-
+  filter: brightness(40%);
 
 }
 
