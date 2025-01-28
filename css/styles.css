@@ -95,7 +95,7 @@ a {
   font-size: 2rem;
   padding: 1rem;
   filter: drop-shadow(3px 4px 1px #000000);
-  color: rgb(199, 212, 12);
+  color: rgb(169, 255, 72);
 }
 
 #title {
@@ -410,6 +410,8 @@ object-fit: cover;
   height: 100%;
   width: 100%;
   object-fit: cover;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 
 }
 
