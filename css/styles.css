@@ -98,6 +98,16 @@ a {
   color: rgb(169, 255, 72);
 }
 
+.dates-done {
+  font-size: 2rem;
+  padding: 1rem;
+  filter: drop-shadow(3px 4px 1px #000000);
+  color: rgb(169, 255, 72);
+  text-decoration: line-through;
+  text-decoration-color: red;
+
+}
+
 #title {
   font-size: 3rem;
 }
