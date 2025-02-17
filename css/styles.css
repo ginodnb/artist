@@ -524,6 +524,11 @@ object-fit: cover;
     padding: 5px;
   }
 
+  .dates-done {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
   #title {
     font-size: 2rem;
   }
