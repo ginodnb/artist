@@ -422,6 +422,8 @@ object-fit: cover;
   object-fit: cover;
   filter: blur(8px);
   -webkit-filter: blur(8px);
+  -webkit-filter: brightness(15%);
+
 
 }
 
@@ -452,17 +454,21 @@ object-fit: cover;
 
 .spotify {
   width: 100%;
+  border: solid white 3px;
 }
 
 .beatport {
   width: 100%;
+  border: solid white 3px;
 }
 
 .apple {
   width: 100%;
+  border: solid white 3px;
 }
 .juno {
   width: 100%;
+  border: solid white 3px;
 }
 
 @media screen and (max-width: 770px) {
