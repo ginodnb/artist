@@ -1,0 +1,35 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Header from '@components/Header.astro';
+import { tourDates } from '@data/tourDates.js';
+---
+
+<Layout className='text-gray-900 dark:text-white'>
+
+	<Header />
+
+	<main class="flex flex-col gap-2 mb-20">
+		{tourDates.map((tour) => (
+			<section class="w-full max-w-[640px] mx-auto mt-4 rounded-lg">
+				<h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold">{tour.season}</h2>
+				<ul class="flex flex-col gap-4 p-4">
+					{tour.dates.map((item) => (
+						<li class="relative transition-transform dark:bg-white dark:bg-opacity-5 flex flex-col gap-4 p-4 rounded-lg bg-gray-900 shadow-md text-white">
+                            <p class="flex flex-row gap-4 items-center !mb-0">
+                                <span class="text-3xl font-bold">{ item.date }</span>
+                                <span class="w-full flex flex-col sm:flex-row sm:gap-4">
+                                    <span>{ item.location }</span>
+                                    <span class="text-sm sm:pt-1 sm:max-w-[65%] block break-words">{ item.venue }</span>
+                                </span>
+                            </p>
+                            <div class="w-full flex justify-end sm:absolute bottom-0 right-0">
+                                <a href={ item.href } target="_blank" class="p-3 font-bold max-w-[140px] text-center text-yellow-300 hover:text-white">{ item.hrefLabel }</a>
+                            </div>
+						</li>
+					))}
+				</ul>
+			</section>
+		))}
+	</main>
+
+</Layout>

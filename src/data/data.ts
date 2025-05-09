@@ -83,7 +83,7 @@ export const links = [
 		items: [
 			{
 				title: 'Tour dates list',
-				"href": "https://ginodnb.com/tourdates",
+				"href": "/tour-dates",
         		"image": "https://ugc.production.linktr.ee/a532e599-16c4-455d-b8b1-2423a3ef8d3e_GINO-38.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
