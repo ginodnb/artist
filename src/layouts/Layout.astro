@@ -1,0 +1,71 @@
+---
+const title = 'Astro boilerplate';
+const description = 'Londonguga Astro boilerplate';
+const SITE_URL = 'https://www.astroboilerplate.com';
+const image = `${SITE_URL}/og-image.jpg`;
+const googleSiteVerification = 'xxx'; // TODO: Create google site verification
+
+import '@styles/theme/default/Global.css';
+
+interface Props { 
+	className? :string;
+}
+
+const { className } = Astro.props as Props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+		  name="viewport"
+		  content="width=device-width, initial-scale=1, maximum-scale=1"
+		/>
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="/favicon.ico" />
+		
+		<meta name="description" content={ description }>
+		<meta property="og:type" content="website">
+		<meta property="og:url" content={ SITE_URL }>
+		<meta property="og:site_name" content={ title }>
+		<meta property="og:title" content={ title }>
+		<meta property="og:description" content={ description }>
+		<meta property="og:image" content={ `${image}` }>
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:image:alt" content={ description }>
+	
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="twitter:site" content={ title }>
+		<meta name="twitter:creator" content="Cadbury">
+		<meta name="twitter:title" content={ title }>
+		<meta name="twitter:description" content={ description }>
+		<meta name="twitter:image" content={ `${image}` }>
+		<meta name="google-site-verification" content={ googleSiteVerification } />
+	
+		<title>{ title }</title>
+		
+		<!-- Meta Pixel Code -->
+		<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '203513021838628');
+		fbq('track', 'PageView');
+		fbq('track', 'ViewContent');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		src="https://www.facebook.com/tr?id=203513021838628&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Meta Pixel Code -->
+	</head>
+	<body class={`layout ${className ? className : ''}`}>
+		<slot />
+	</body>
+</html>

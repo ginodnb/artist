@@ -1,0 +1,38 @@
+{
+  "extends": "astro/tsconfigs/strictest",
+  "compilerOptions": {
+    "sourceMap": true,
+    "baseUrl": "src/",
+    "paths": {
+      "@data/*": ["data/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@images/*": ["images/*"],
+      "@customTypes/*": ["types/*"],
+      "@utils/*": ["utils/*"],
+      "@events/*": ["events/*"],
+      "@styles/*": ["styles/*"],
+      "@serverside/*": ["types/serverside/*"],
+      "@libs/*": ["libs/*"],
+    },
+    "strict": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["solid-js"],
+    "noEmit": true,
+    "isolatedModules": true,
+    "exactOptionalPropertyTypes": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictNullChecks": false
+  },
+  "include": [".astro/types.d.ts", "**/*"],
+  "exclude": [
+    ".astro/*",
+    "node_modules/*",
+    ".vscode/*",
+    "dist/*",
+    "public/*",
+    "src/types/serverside/*"
+  ]
+}

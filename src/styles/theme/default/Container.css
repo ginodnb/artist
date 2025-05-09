@@ -1,0 +1,6 @@
+.container { 
+    @apply mx-auto p-4;
+}
+.container.fluid { 
+    @apply max-w-full bg-red-200;
+}
