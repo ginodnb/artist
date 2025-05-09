@@ -57,6 +57,11 @@ export const links = [
 		title: 'New music',
 		items: [
 			{
+				title: 'You fool',
+				"href": "/you-fool",
+        		"image": "/images/you-fool-artwork-final.png"
+			},
+			{
 				title: 'Rush wave / Duhka out now',
 				"href": "https://www.crucast.com/rushwave",
         		"image": "https://ugc.production.linktr.ee/22401a46-b9a7-4940-b0d6-a3e5da2a28a5_Untitled-design-15.png?io=true&size=thumbnail-stack-v1_0"

@@ -1,0 +1,31 @@
+---
+import Layout from '@layouts/Layout.astro';
+import Header from '@components/Header.astro';
+import { youFool } from '@data/youFool';
+---
+
+<Layout className='text-gray-900 dark:text-white'>
+
+    <Header />
+    <div class="container max-w-[992px] mx-auto px-4 py-8 flex flex-col mb-8 gap-4">
+        <img src="/images/you-fool-artwork-final.png" class="w-full max-w-[450px] mx-auto rounded-lg overflow-hidden" />
+        <div class="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full mt-5">
+
+            {
+                youFool.map((item) => (
+                    <div class="flex flex-col gap-2 p-4 border border-gray-300 dark:border-gray-700 rounded-lg bg-white dark:bg-gray-800">
+                        <h1 class="text-3xl font-bold mb-0">{ item.title }</h1>
+                        <a href={ item.href } target="_blank" class="flex flex-row gap-2 underline underline-offset-4 hover:no-underline hover:text-blue-400">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
+                                <path fill-rule="evenodd" d="M2 10a8 8 0 1 1 16 0 8 8 0 0 1-16 0Zm6.39-2.908a.75.75 0 0 1 .766.027l3.5 2.25a.75.75 0 0 1 0 1.262l-3.5 2.25A.75.75 0 0 1 8 12.25v-4.5a.75.75 0 0 1 .39-.658Z" clip-rule="evenodd" />
+                            </svg>
+                            <span>{ item.hrefLabel }</span>
+                        </a>
+                    </div>
+                ))
+            }
+
+        </div>
+    </div>
+
+</Layout>
