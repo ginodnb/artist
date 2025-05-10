@@ -1,7 +1,8 @@
 export function GET() {
 
     const content = `User-agent: *
-Sitemap: /sitemap.xml`
+Allow /
+Sitemap: https://www.ginodnb.com/sitemap-index.xml`
 
     return new Response(content, {
         status: 200,
