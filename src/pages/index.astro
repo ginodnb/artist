@@ -2,6 +2,7 @@
 import Layout from '@layouts/Layout.astro';
 import Header from '@components/Header.astro';
 import { links } from '@data/data';
+import LinkComponent from '@components/LinkComponent.astro';
 ---
 
 <Layout className='text-gray-900 dark:text-white'>
@@ -15,10 +16,7 @@ import { links } from '@data/data';
 				<ul class="flex flex-col gap-4 p-4">
 					{link.items.map((item) => (
 						<li>
-							<a href={item.href} target="_blank" class="text-white transition-transform dark:bg-white dark:bg-opacity-5 duration-200 ease-in-out hover:scale-[1.05] origin-center flex flex-row gap-4 p-4 rounded-lg bg-gray-900 shadow-md">
-								{ item.image && <img src={item.image} alt={item.title} class="w-14 rounded-lg" /> }
-								<h3 class="text-xl pt-3">{item.title}</h3>
-							</a>
+							<LinkComponent href={item.href} image={item.image} title={item.title} />
 						</li>
 					))}
 				</ul>

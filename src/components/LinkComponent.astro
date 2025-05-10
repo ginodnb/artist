@@ -1,0 +1,13 @@
+---
+interface Props {
+    href:string;
+    image?:string;
+    title:string;
+}
+const { href, image, title } = Astro.props;
+
+---
+<a href={href} target="_blank" class="text-white transition-transform dark:bg-white dark:bg-opacity-5 duration-200 ease-in-out hover:scale-[1.05] origin-center flex flex-row gap-4 p-4 rounded-lg bg-gray-900 shadow-md">
+    { image && <img src={image} alt={title} class="w-14 rounded-lg" /> }
+    <h3 class="text-xl pt-3">{title}</h3>
+</a>
