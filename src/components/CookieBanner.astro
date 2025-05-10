@@ -1,0 +1,31 @@
+<div role="alert" class="sticky bottom-2 md:bottom-4 cookie-consent hidden">
+  <div class="container mx-auto md:p-4 alert alert-vertical sm:alert-horizontal mb-4 text-base">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-info h-6 w-6 shrink-0">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg>
+    <span>We use cookies on this website.</span>
+    <div>
+        <button class="btn btn-sm btn-primary">Cool?</button>
+    </div>
+  </div>
+</div>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => { 
+    
+    const cookieConsent = document.querySelector('.cookie-consent') as HTMLElement;
+    const cookieConsentBtn = cookieConsent.querySelector('button')
+    cookieConsentBtn.addEventListener('click', evt => { 
+        evt.preventDefault();
+        cookieConsent.classList.add('hidden');
+        localStorage.setItem('cookie-consent', 'true');
+    })
+
+    if(!localStorage.getItem('cookie-consent')) {
+        cookieConsent.classList.remove('hidden');
+    }
+
+})
+
+</script>
