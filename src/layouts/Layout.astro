@@ -64,6 +64,17 @@ const { className } = Astro.props as Props;
 		src="https://www.facebook.com/tr?id=203513021838628&ev=PageView&noscript=1"
 		/></noscript>
 		<!-- End Meta Pixel Code -->
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-W69KL4SHB7"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-W69KL4SHB7');
+		</script>
+
 	</head>
 	<body class={`layout ${className ? className : ''}`}>
 		<slot />
