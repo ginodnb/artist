@@ -3,13 +3,6 @@ export const tourDates = [
         season: 'Summer 2025',
         dates: [
             {
-                date: '19.04',
-                location: 'Cambridge, UK',
-                venue: 'The Junction',
-                href: '#',
-                hrefLabel: 'Tickets',
-            },
-            {
                 date: '10.05',
                 location: 'London',
                 venue: 'Steelyard',
@@ -37,6 +30,29 @@ export const tourDates = [
                 href: '#',
                 hrefLabel: 'Tickets',
             },
+                        {
+                date: '05.07',
+                location: 'Belgium',
+                venue: 'Rampage',
+                href: 'https://www.rampageopenair.eu/tickets',
+                hrefLabel: 'Tickets',
+            },
+            {
+                date: '26.07',
+                location: 'Birmingham',
+                venue: 'Lab 11',
+                href: 'https://www.skiddle.com/whats-on/Birmingham/LAB11/DNB-Collective-History-Of-Jump-Up/40967332/',
+                hrefLabel: 'Tickets',
+            },
+            {
+                date: '27.07',
+                location: 'Belgium',
+                venue: 'Tomorrowland',
+                href: 'https://belgium.tomorrowland.com/en/welcome/',
+                hrefLabel: 'Tickets',
+            },
+            
+            
         ]
     }
 ]
