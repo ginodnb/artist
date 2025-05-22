@@ -2,10 +2,16 @@ export const links = [
 	{
 		items: [
 			{
+				title: 'Its not all lights and bass...',
+				href: "https://youtu.be/mqX57AV2dQU",
+        		image: "https://i.ytimg.com/an_webp/mqX57AV2dQU/mqdefault_6s.webp?du=3000&sqp=CM7cvMEG&rs=AOn4CLDdLgqKHnOp4fpLDJt7BbTAslr66g"
+			},
+			{
 				title: 'Gino - Who They Are / Wormbait',
 				href: "https://monta.ffm.to/whotheyare_wormbait",
         		image: "https://ugc.production.linktr.ee/4af3ee07-6bb0-4c74-9b42-0a7527a87912_554e915b51b475794bf5a7d67593081b.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
+						
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
@@ -25,11 +31,6 @@ export const links = [
 				title: 'NEW YEAR SAME ME VOL. 2 🎧',
 				"href": "https://soundcloud.com/ginodnb/new-year-same-me-vol-2",
         		"image": "https://ugc.production.linktr.ee/2ed5a717-2bf7-4fe5-81ed-2723cf6e9324_artworks-Txd1Fe3rzIh1rj8Q-aqX3lw-t500x500.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-			{
-				title: 'Gino invites Amplify',
-				"href": "https://www.rinse.fm/episodes/gino-23-03-2025-1600/",
-        		"image": "https://ugc.production.linktr.ee/177b3cc6-f127-45c6-a3f0-bcbc28195e05_Gino--12-of-71-Gino-Arnone.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
 				title: 'Amplify vs Gino - Cruclash',
@@ -115,6 +116,11 @@ export const links = [
 				title: 'Merch / Shop',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://ugc.production.linktr.ee/e764270c-bba8-4cd3-a9fe-d79353fb9e26_IT-GETS-LIKE-THAT-SHOULDER-TEE-REAR-V1.png?io=true&size=thumbnail-stack-v1_0"
+			},
+						{
+				title: 'Gino invites Amplify',
+				"href": "https://www.rinse.fm/episodes/gino-23-03-2025-1600/",
+        		"image": "https://ugc.production.linktr.ee/177b3cc6-f127-45c6-a3f0-bcbc28195e05_Gino--12-of-71-Gino-Arnone.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
 				title: 'My youtube',
