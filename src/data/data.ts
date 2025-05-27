@@ -4,7 +4,7 @@ export const links = [
 			{
 				title: 'Its not all lights and bass...',
 				href: "https://youtu.be/mqX57AV2dQU",
-        		image: "https://i.ytimg.com/an_webp/mqX57AV2dQU/mqdefault_6s.webp?du=3000&sqp=CM7cvMEG&rs=AOn4CLDdLgqKHnOp4fpLDJt7BbTAslr66g"
+        		image: "https://i.ytimg.com/an_webp/mqX57AV2dQU/mqdefault_6s.webp?du=3000&sqp=CPWy2MEG&rs=AOn4CLAC49eg30DrfrtaQn8KCK2RugyDJA"
 			},
 			{
 				title: 'Gino - Who They Are / Wormbait',
