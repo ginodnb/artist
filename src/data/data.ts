@@ -25,6 +25,21 @@ export const links = [
 		]
 	},
 	{
+		title: 'Show dates & tickets',
+		items: [
+			{
+				title: 'Tour dates list 📆',
+				"href": "/tour-dates",
+        		"image": "https://ugc.production.linktr.ee/a532e599-16c4-455d-b8b1-2423a3ef8d3e_GINO-38.jpeg?io=true&size=thumbnail-stack-v1_0"
+			},
+			// {
+			// 	title: 'DnB Allstars Festival',
+			// 	"href": "https://www.dnballstars.uk/",
+        	// 	"image": "https://ugc.production.linktr.ee/a3c1333f-4366-43b3-97cc-087265b8c5f1_Festival-Logo-v2-compressed.png?io=true&size=thumbnail-stack-v1_0"
+			// },
+		]
+	},
+	{
 		title: 'Live sets / mixes',
 		items: [
 			{
@@ -81,21 +96,6 @@ export const links = [
 				title: 'Villains (ft P Money) (Official Music Video)',
 				"href": "https://www.youtube.com/watch?v=NN3BYeYSHbU",
         		"image": "https://ugc.production.linktr.ee/9be5abc4-0f0c-40d9-98f7-754d2e244d87_d4f8a5e3-3178-4ecd-a36c-992f832a96a7-hqdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-		]
-	},
-	{
-		title: 'Show dates & tickets',
-		items: [
-			{
-				title: 'Tour dates list',
-				"href": "/tour-dates",
-        		"image": "https://ugc.production.linktr.ee/a532e599-16c4-455d-b8b1-2423a3ef8d3e_GINO-38.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-			{
-				title: 'DnB Allstars Festival',
-				"href": "https://www.dnballstars.uk/",
-        		"image": "https://ugc.production.linktr.ee/a3c1333f-4366-43b3-97cc-087265b8c5f1_Festival-Logo-v2-compressed.png?io=true&size=thumbnail-stack-v1_0"
 			},
 		]
 	},
