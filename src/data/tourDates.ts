@@ -19,17 +19,17 @@ export const tourDates = [
             {
                 date: '11.07',
                 location: 'Whanganui',
-                venue: '???????',
+                venue: 'Frank bar',
                 href: '#',
                 hrefLabel: 'Tickets soon',
             },
-            {
-                date: '12.07',
-                location: '??????',
-                venue: '???????',
-                href: '#',
-                hrefLabel: 'Tickets',
-            },
+            // {
+            //     date: '12.07',
+            //     location: '??????',
+            //     venue: '???????',
+            //     href: '#',
+            //     hrefLabel: 'Tickets',
+            // },
             {
                 date: '14.07',
                 location: 'Dunedin',
