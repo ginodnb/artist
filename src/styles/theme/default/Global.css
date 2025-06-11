@@ -11,8 +11,22 @@ html, body {
 }
 
 
-.layout {
+/* .layout {
     @apply bg-gray-100 dark:bg-gray-800 min-h-screen min-h-dvh;
+} */
+
+
+@keyframes fall {
+  0% {
+    transform: translateY(-10%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh);
+    opacity: 0;
+  }
 }
 
-
+.animate-fall {
+  animation: fall 6s linear infinite;
+}

@@ -1,27 +1,23 @@
 export const links = [
 	{
 		items: [
-			{
-				title: 'AUCKLAND, NZ',
-				href: "https://juiceboxent.flicket.co.nz/events/a9f11a26-0715-4f2a-80bd-4b037ff91f39/reservation",
-        		image: "https://juiceboxent.flicket.co.nz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fflicket-uploads%2Fevents%2Fa9f11a26-0715-4f2a-80bd-4b037ff91f39%2Fe5b3eba2-a5ca-4704-b73c-a2e304041d42.webp&w=1080&q=75"
-			},
-			{
-				title: 'Gino - Who They Are / Wormbait',
-				href: "https://monta.ffm.to/whotheyare_wormbait",
-        		image: "https://ugc.production.linktr.ee/4af3ee07-6bb0-4c74-9b42-0a7527a87912_554e915b51b475794bf5a7d67593081b.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
+			// {
+			// 	title: 'AUCKLAND, NZ',
+			// 	href: "https://juiceboxent.flicket.co.nz/events/a9f11a26-0715-4f2a-80bd-4b037ff91f39/reservation",
+        	// 	image: "https://juiceboxent.flicket.co.nz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fflicket-uploads%2Fevents%2Fa9f11a26-0715-4f2a-80bd-4b037ff91f39%2Fe5b3eba2-a5ca-4704-b73c-a2e304041d42.webp&w=1080&q=75"
+			// },
+			// {
+			// 	title: 'Gino - Who They Are / Wormbait',
+			// 	href: "https://monta.ffm.to/whotheyare_wormbait",
+        	// 	image: "https://ugc.production.linktr.ee/4af3ee07-6bb0-4c74-9b42-0a7527a87912_554e915b51b475794bf5a7d67593081b.jpeg?io=true&size=thumbnail-stack-v1_0"
+			// },
 						
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
         		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
-			{
-				title: 'Gino x Crucast DNB Serum Presets',
-				"href": "https://www.crucast.com/shop/gino-x-crucast-dnb-serum-presets",
-        "image": "https://ugc.production.linktr.ee/82092020-c492-4a7a-9516-a065e67040a3_WhatsApp-Image-2025-03-28-at-07.32.25.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
+
 		]
 	},
 	{
@@ -116,6 +112,11 @@ export const links = [
 				title: 'Merch / Shop',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://ugc.production.linktr.ee/e764270c-bba8-4cd3-a9fe-d79353fb9e26_IT-GETS-LIKE-THAT-SHOULDER-TEE-REAR-V1.png?io=true&size=thumbnail-stack-v1_0"
+			},
+						{
+				title: 'Gino x Crucast DNB Serum Presets',
+				"href": "https://www.crucast.com/shop/gino-x-crucast-dnb-serum-presets",
+        "image": "https://ugc.production.linktr.ee/82092020-c492-4a7a-9516-a065e67040a3_WhatsApp-Image-2025-03-28-at-07.32.25.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
 						{
 				title: 'Gino invites Amplify',

@@ -83,8 +83,30 @@ const { className } = Astro.props as Props;
 		</script>
 
 	</head>
-	<body class={`layout ${className ? className : ''}`}>
-		<slot />
-		<CookieBanner />
-	</body>
+<body class={`font-sans text-sm sm:text-base ${className ? className : ''}`}>
+  <div class="relative min-h-screen min-h-dvh overflow-hidden bg-gray-100 dark:bg-gray-950">
+
+    <!-- 🔲 Grid Layer -->
+    <div class="absolute inset-0 z-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px] pointer-events-none"></div>
+
+    <!-- 🌀 Glow Layer -->
+    <div class="absolute left-0 right-0 top-[-10%] h-[1000px] w-[1000px] mx-auto rounded-full bg-[radial-gradient(circle_400px_at_50%_300px,#ffffff0d,#00000000)] z-0 pointer-events-none"></div>
+
+    <!-- 💧 Falling Droplets Layer -->
+    <div class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+      {[...Array(20)].map((_, i) => (
+        <span
+          class="absolute w-2 h-2 rounded-full opacity-70 animate-fall"
+          style={`left: ${Math.random() * 100}%; animation-delay: ${Math.random() * 5}s; background-color: hsl(${Math.random() * 360}, 80%, 60%)`}
+        ></span>
+      ))}
+    </div>
+
+    <!-- 🔒 Main Content -->
+    <div class="relative z-10">
+      <slot />
+      <CookieBanner />
+    </div>
+  </div>
+</body>
 </html>
