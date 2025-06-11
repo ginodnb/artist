@@ -2,9 +2,9 @@ export const links = [
 	{
 		items: [
 			{
-				title: 'Its not all lights and bass...',
-				href: "https://youtu.be/mqX57AV2dQU",
-        		image: "https://i.ytimg.com/an_webp/mqX57AV2dQU/mqdefault_6s.webp?du=3000&sqp=CPWy2MEG&rs=AOn4CLAC49eg30DrfrtaQn8KCK2RugyDJA"
+				title: 'AUCKLAND, NZ',
+				href: "https://juiceboxent.flicket.co.nz/events/a9f11a26-0715-4f2a-80bd-4b037ff91f39/reservation",
+        		image: "https://juiceboxent.flicket.co.nz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fflicket-uploads%2Fevents%2Fa9f11a26-0715-4f2a-80bd-4b037ff91f39%2Fe5b3eba2-a5ca-4704-b73c-a2e304041d42.webp&w=1080&q=75"
 			},
 			{
 				title: 'Gino - Who They Are / Wormbait',
