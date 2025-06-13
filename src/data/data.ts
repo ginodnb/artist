@@ -11,7 +11,11 @@ export const links = [
 			// 	href: "https://monta.ffm.to/whotheyare_wormbait",
         	// 	image: "https://ugc.production.linktr.ee/4af3ee07-6bb0-4c74-9b42-0a7527a87912_554e915b51b475794bf5a7d67593081b.jpeg?io=true&size=thumbnail-stack-v1_0"
 			// },
-						
+						{
+				title: 'Merch - PREORDER THE STANCE TEE',
+				href: 'https://clam-records.myshopify.com/',
+				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823"
+			},
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
@@ -108,11 +112,7 @@ export const links = [
 	{
 		title: 'Links',
 		items: [
-			{
-				title: 'Merch / Shop',
-				href: 'https://clam-records.myshopify.com/',
-				"image": "https://ugc.production.linktr.ee/e764270c-bba8-4cd3-a9fe-d79353fb9e26_IT-GETS-LIKE-THAT-SHOULDER-TEE-REAR-V1.png?io=true&size=thumbnail-stack-v1_0"
-			},
+			
 						{
 				title: 'Gino x Crucast DNB Serum Presets',
 				"href": "https://www.crucast.com/shop/gino-x-crucast-dnb-serum-presets",
