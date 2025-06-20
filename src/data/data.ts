@@ -6,15 +6,15 @@ export const links = [
 			// 	href: "https://juiceboxent.flicket.co.nz/events/a9f11a26-0715-4f2a-80bd-4b037ff91f39/reservation",
         	// 	image: "https://juiceboxent.flicket.co.nz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fflicket-uploads%2Fevents%2Fa9f11a26-0715-4f2a-80bd-4b037ff91f39%2Fe5b3eba2-a5ca-4704-b73c-a2e304041d42.webp&w=1080&q=75"
 			// },
-			// {
-			// 	title: 'Gino - Who They Are / Wormbait',
-			// 	href: "https://monta.ffm.to/whotheyare_wormbait",
-        	// 	image: "https://ugc.production.linktr.ee/4af3ee07-6bb0-4c74-9b42-0a7527a87912_554e915b51b475794bf5a7d67593081b.jpeg?io=true&size=thumbnail-stack-v1_0"
-			// },
+			{
+				title: 'MAINSTREAM REMIX',
+				href: 'https://higheq.lnk.to/RUN051DA',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/83607846-58f8-4573-a964-e9fb435c67e8.jpg"
+			},
 						{
 				title: 'Merch - PREORDER THE STANCE TEE',
 				href: 'https://clam-records.myshopify.com/',
-				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823"
+				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
 			},
 			{
 				title: 'Gino on Patreon 🤌',
