@@ -28,9 +28,9 @@ export const links = [
 		title: 'Show dates & tickets',
 		items: [
 			{
-				title: 'Tour dates list 📆',
+				title: 'Show Tickets  📆',
 				"href": "/tour-dates",
-        		"image": "https://ugc.production.linktr.ee/a532e599-16c4-455d-b8b1-2423a3ef8d3e_GINO-38.jpeg?io=true&size=thumbnail-stack-v1_0"
+        		"image": "https://image.rinse.fm/_/GINO-33-Gino-Arnone.jpg?w=1200&h=1200"
 			},
 			// {
 			// 	title: 'DnB Allstars Festival',

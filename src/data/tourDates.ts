@@ -7,7 +7,7 @@ export const tourDates = [
                 location: 'Vienna, Austria',
                 venue: 'Switch',
                 href: 'https://switch.ticket.io/y20avj7n/?',
-                hrefLabel: 'Tickets',
+                hrefLabel: 'Tickets available',
             },
                         {
                 date: '05.07',
@@ -20,8 +20,8 @@ export const tourDates = [
                 date: '11.07',
                 location: 'Whanganui',
                 venue: 'Frank bar',
-                href: '#',
-                hrefLabel: 'Tickets soon',
+                href: 'https://tickets.ticketspace.co.nz/tickets/gino-uk-whanganui',
+                hrefLabel: 'Tickets available',
             },
             // {
             //     date: '12.07',
@@ -49,14 +49,14 @@ export const tourDates = [
                 location: 'Auckland, NZ',
                 venue: 'Pointers',
                 href: 'https://juiceboxent.flicket.co.nz/events/a9f11a26-0715-4f2a-80bd-4b037ff91f39/reservation',
-                hrefLabel: 'Tickets',
+                hrefLabel: 'Tickets available',
             },
             {
                 date: '19.07',
                 location: 'Wellington',
                 venue: 'EVA',
                 href: 'https://juiceboxent.flicket.co.nz/events/5823b422-e5fb-46f0-bd28-3b1ea8b7c354/reservation?fbclid=IwQ0xDSwK2GeZleHRuA2FlbQIxMAABHlZlo6lVI0dpQo_RjK_PB2ob77TVBDRVeR8STwTdv79q4-fGm83NTTDENI4h_aem_KrDMPDqMe_xiAx-g_yXBeg',
-                hrefLabel: 'Tickets',
+                hrefLabel: 'Tickets available',
             },
             {
                 date: '26.07',
