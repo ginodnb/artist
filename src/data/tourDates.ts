@@ -34,14 +34,14 @@ export const tourDates = [
                 date: '14.07',
                 location: 'Dunedin',
                 venue: 'Catacombs',
-                href: '#',
-                hrefLabel: 'Tickets soon',
+                href: 'https://coastalpromotions.flicket.co.nz/events/5d8f2c6e-4165-4683-8b60-e096119cc853?fbclid=PAZXh0bgNhZW0CMTEAAacAIyqZMAhkOAq8EXBV27oRPRSbCAIBZ5JDzfpqNAYd0cKV6XyHzf45w5RNMg_aem_HBJMZDfzPiFvei3YwzU4vg',
+                hrefLabel: 'Tickets 01.07 7pm',
             },
             {
                 date: '17.07',
                 location: 'Christchurch, NZ',
                 venue: 'Hide Club',
-                href: '',
+                href: '#',
                 hrefLabel: 'Tickets soon',
             },
             {
@@ -77,6 +77,14 @@ export const tourDates = [
                 location: 'Prague',
                 venue: 'Let It Roll Festival',
                 href: 'https://www.letitroll.eu/',
+                hrefLabel: 'Tickets',
+            },
+            
+            {
+                date: '12.09',
+                location: 'TBA',
+                venue: 'TBA',
+                href: '#',
                 hrefLabel: 'Tickets',
             },
             {
