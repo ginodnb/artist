@@ -73,6 +73,11 @@ export const links = [
 		title: 'New music',
 		items: [
 			{
+				title: 'Fatto In Casa Remix',
+				"href": "/fatto-remix",
+        		"image": "https://geo-media.beatport.com/image_size/1400x1400/66103f1d-bded-4257-a76d-38e26c72939c.jpg"
+			},
+			{
 				title: 'You fool',
 				"href": "/you-fool",
         		"image": "/images/you-fool-artwork-final.png"
