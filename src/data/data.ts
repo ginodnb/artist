@@ -52,11 +52,11 @@ export const links = [
 				"href": "https://youtu.be/9Oe8Vg9syn8?si=MhFT82k777s8PA8X",
         		"image": "https://ugc.production.linktr.ee/03a9577c-112d-46bc-ba06-d415c99706e3_maxresdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
-			{
-				title: 'August 24 studio mix',
-				"href": "https://www.youtube.com/watch?v=YdsRrFucMWw&t=2s",
-        		"image": "https://ugc.production.linktr.ee/db43da60-e99c-4b9b-8207-d3ed576db500_hqdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
+			// {
+			// 	title: 'August 24 studio mix',
+			// 	"href": "https://www.youtube.com/watch?v=YdsRrFucMWw&t=2s",
+        	// 	"image": "https://ugc.production.linktr.ee/db43da60-e99c-4b9b-8207-d3ed576db500_hqdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
+			// },
 			{
 				title: 'Gino radio 1 mix',
 				"href": "https://on.soundcloud.com/b2Bx62GeZKHto19B8",
