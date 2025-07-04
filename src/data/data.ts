@@ -1,16 +1,12 @@
 export const links = [
 	{
 		items: [
-			// {
-			// 	title: 'AUCKLAND, NZ',
-			// 	href: "https://juiceboxent.flicket.co.nz/events/a9f11a26-0715-4f2a-80bd-4b037ff91f39/reservation",
-        	// 	image: "https://juiceboxent.flicket.co.nz/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fflicket-uploads%2Fevents%2Fa9f11a26-0715-4f2a-80bd-4b037ff91f39%2Fe5b3eba2-a5ca-4704-b73c-a2e304041d42.webp&w=1080&q=75"
-			// },
 			{
-				title: 'MAINSTREAM REMIX',
-				href: 'https://higheq.lnk.to/RUN051DA',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/83607846-58f8-4573-a964-e9fb435c67e8.jpg"
+				title: 'FATTO IN CASA REMIX',
+				href: "https://higheq.lnk.to/CLAM011",
+        		image: "https://geo-media.beatport.com/image_size/1400x1400/66103f1d-bded-4257-a76d-38e26c72939c.jpg"
 			},
+		
 						{
 				title: 'Merch - PREORDER THE STANCE TEE',
 				href: 'https://clam-records.myshopify.com/',
@@ -73,6 +69,11 @@ export const links = [
 		title: 'New music',
 		items: [
 			{
+				title: 'MAINSTREAM REMIX',
+				href: 'https://higheq.lnk.to/RUN051DA',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/83607846-58f8-4573-a964-e9fb435c67e8.jpg"
+			},
+			{
 				title: 'Fatto In Casa Remix',
 				"href": "/fatto-remix",
         		"image": "https://geo-media.beatport.com/image_size/1400x1400/66103f1d-bded-4257-a76d-38e26c72939c.jpg"
@@ -92,16 +93,16 @@ export const links = [
 				"href": "https://www.crucast.com/itgetslikethat",
         		"image": "https://ugc.production.linktr.ee/89daf90f-7293-4760-a846-2a21d27a3f10_FEED.png?io=true&size=thumbnail-stack-v1_0"
 			},
-			{
-				title: 'Swing & Dip (Official Music Video)',
-				"href": "https://www.youtube.com/watch?v=g4vqDFzX4fw",
-        		"image": "https://ugc.production.linktr.ee/c176cd26-475f-4c16-86dd-59f3e8757326_maxresdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-			{
-				title: 'Villains (ft P Money) (Official Music Video)',
-				"href": "https://www.youtube.com/watch?v=NN3BYeYSHbU",
-        		"image": "https://ugc.production.linktr.ee/9be5abc4-0f0c-40d9-98f7-754d2e244d87_d4f8a5e3-3178-4ecd-a36c-992f832a96a7-hqdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
+			// {
+			// 	title: 'Swing & Dip (Official Music Video)',
+			// 	"href": "https://www.youtube.com/watch?v=g4vqDFzX4fw",
+        	// 	"image": "https://ugc.production.linktr.ee/c176cd26-475f-4c16-86dd-59f3e8757326_maxresdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
+			// },
+			// {
+			// 	title: 'Villains (ft P Money) (Official Music Video)',
+			// 	"href": "https://www.youtube.com/watch?v=NN3BYeYSHbU",
+        	// 	"image": "https://ugc.production.linktr.ee/9be5abc4-0f0c-40d9-98f7-754d2e244d87_d4f8a5e3-3178-4ecd-a36c-992f832a96a7-hqdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
+			// },
 		]
 	},
 	{
