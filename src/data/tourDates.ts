@@ -25,10 +25,10 @@ export const tourDates = [
             },
             {
                 date: '12.07',
-                location: '??????',
-                venue: '???????',
-                href: '#',
-                hrefLabel: 'Tickets',
+                location: 'Auckland',
+                venue: 'Pointers',
+                href: 'https://juiceboxent.flicket.co.nz/events/b1798011-0437-4341-add0-84bd4f462fed/reservation',
+                hrefLabel: 'Tickets available',
             },
             {
                 date: '14.07',
