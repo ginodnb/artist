@@ -8,7 +8,7 @@ export const links = [
 			},
 		
 						{
-				title: 'Merch - PREORDER THE STANCE TEE',
+				title: 'Merch - Stance Tee Out Now',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
 			},
