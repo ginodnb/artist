@@ -68,6 +68,11 @@ export const links = [
 				"href": "https://www.youtube.com/watch?v=p9pYk-PDBEM&t=2204s",
         		"image": "https://ugc.production.linktr.ee/dd10c1d5-e5d4-4a49-a5d2-23ab190cbd53_192677d5-2d5d-4fd3-874b-c4e0457bdda2-maxresdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
+			{
+				title: 'Gino presents the "It Gets Like That" Show',
+				"href": "https://www.rinse.fm/shows/the-it-gets-like-that-show-with-gino/",
+        		"image": "https://image.rinse.fm/_/GINO-36-Gino-Arnone.jpg?w=1200&h=1200"
+			},
 		]
 	},
 	{
