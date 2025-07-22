@@ -2,6 +2,11 @@ export const links = [
 	{
 		items: [
 			{
+				title: 'NEW MUSIC /W BOU, TURNO, AUDIT',
+				href: "https://cygnusmusic.link/bsidesmixtape?fbclid=PAZXh0bgNhZW0CMTEAAaeNtgf26roweCT5o8WyLiEFpSnc2E6ZAnOKPciKaD1x_jxQWKrWcFHhZDp9iQ_aem_pP3AM509Y984UARKay_3fg",
+        		image: "https://geo-media.beatport.com/image_size/1400x1400/c91e41d8-a2d0-4eeb-b86d-698a60ae20b0.jpg"
+			},
+			{
 				title: 'FATTO IN CASA REMIX',
 				href: "https://higheq.lnk.to/CLAM011",
         		image: "https://geo-media.beatport.com/image_size/1400x1400/66103f1d-bded-4257-a76d-38e26c72939c.jpg"
