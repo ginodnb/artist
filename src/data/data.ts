@@ -3,6 +3,11 @@ export const links = [
 		title: 'Spotlight 💡',
 		items: [
 			{
+				title: 'Australia Tour',
+				"href": "https://events.inhibit.net.au/cruclash",
+        		"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/076605fe-c2d0-4fdd-a57a-c4ce18a92a6b/Cruclash-Aus-Tour_4x5.png?format=1500w"
+			},
+			{
 				title: 'Presave Arrivata',
 				href: "https://found.ee/Arrivata_EP",
         		image: "https://static.found.ee/user/312753/res-68cbf907-5a04-4c11-bf3b-15924b2fc7b6-CRIT256-WAEYS---ARRIVATA-EP-1x1.png"
@@ -12,7 +17,6 @@ export const links = [
 				href: "https://cygnusmusic.link/bsidesmixtape?fbclid=PAZXh0bgNhZW0CMTEAAaeNtgf26roweCT5o8WyLiEFpSnc2E6ZAnOKPciKaD1x_jxQWKrWcFHhZDp9iQ_aem_pP3AM509Y984UARKay_3fg",
         		image: "https://geo-media.beatport.com/image_size/1400x1400/c91e41d8-a2d0-4eeb-b86d-698a60ae20b0.jpg"
 			},
-		
 						{
 				title: 'Merch - Stance Tee Out Now',
 				href: 'https://clam-records.myshopify.com/',
