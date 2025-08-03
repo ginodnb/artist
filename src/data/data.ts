@@ -3,12 +3,12 @@ export const links = [
 		title: 'Spotlight 💡',
 		items: [
 			{
-				title: 'Australia Tour',
+				title: 'Australia Tour - TICKETS 🎫',
 				"href": "https://events.inhibit.net.au/cruclash",
         		"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/076605fe-c2d0-4fdd-a57a-c4ce18a92a6b/Cruclash-Aus-Tour_4x5.png?format=1500w"
 			},
 			{
-				title: 'Presave Arrivata',
+				title: 'Arrivata',
 				href: "https://found.ee/Arrivata_EP",
         		image: "https://static.found.ee/user/312753/res-68cbf907-5a04-4c11-bf3b-15924b2fc7b6-CRIT256-WAEYS---ARRIVATA-EP-1x1.png"
 			},
