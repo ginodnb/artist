@@ -68,6 +68,13 @@ export const tourDates = [
                 hrefLabel: 'Tickets',
             },
             {
+                date: '25.09',
+                location: 'Secret Show',
+                venue: 'More info soon',
+                href: '#',
+                hrefLabel: '',
+            },
+            {
                 date: '26.09',
                 location: '????',
                 venue: '???',

@@ -17,11 +17,6 @@ export const links = [
 				href: "https://found.ee/Arrivata_EP",
         		image: "https://static.found.ee/user/312753/res-68cbf907-5a04-4c11-bf3b-15924b2fc7b6-CRIT256-WAEYS---ARRIVATA-EP-1x1.png"
 			},
-			{
-				title: 'NEW MUSIC /W BOU, TURNO, AUDIT',
-				href: "https://cygnusmusic.link/bsidesmixtape?fbclid=PAZXh0bgNhZW0CMTEAAaeNtgf26roweCT5o8WyLiEFpSnc2E6ZAnOKPciKaD1x_jxQWKrWcFHhZDp9iQ_aem_pP3AM509Y984UARKay_3fg",
-        		image: "https://geo-media.beatport.com/image_size/1400x1400/c91e41d8-a2d0-4eeb-b86d-698a60ae20b0.jpg"
-			},
 						{
 				title: 'MERCH STORE 🧢',
 				href: 'https://clam-records.myshopify.com/',
@@ -84,6 +79,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [
+						{
+				title: 'NEW MUSIC /W BOU, TURNO, AUDIT',
+				href: "https://cygnusmusic.link/bsidesmixtape?fbclid=PAZXh0bgNhZW0CMTEAAaeNtgf26roweCT5o8WyLiEFpSnc2E6ZAnOKPciKaD1x_jxQWKrWcFHhZDp9iQ_aem_pP3AM509Y984UARKay_3fg",
+        		image: "https://geo-media.beatport.com/image_size/1400x1400/c91e41d8-a2d0-4eeb-b86d-698a60ae20b0.jpg"
+			},
 			{
 				title: 'MAINSTREAM REMIX',
 				href: 'https://higheq.lnk.to/RUN051DA',
