@@ -76,10 +76,10 @@ export const tourDates = [
             },
             {
                 date: '26.09',
-                location: '????',
-                venue: '???',
-                href: '#',
-                hrefLabel: '',
+                location: 'Milton Keynes',
+                venue: 'Unit 9',
+                href: 'https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/CruCast-Milton-Keynes/41305933/',
+                hrefLabel: 'Tickets',
             },
             {
                 date: '27.09',
