@@ -12,11 +12,6 @@ export const links = [
 				"href": "https://www.patreon.com/c/ginodnb/posts",
         		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
-			{
-				title: 'Australia Tour - TICKETS 🎫',
-				"href": "https://events.inhibit.net.au/cruclash",
-        		"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/076605fe-c2d0-4fdd-a57a-c4ce18a92a6b/Cruclash-Aus-Tour_4x5.png?format=1500w"
-			},
 
 						{
 				title: 'MERCH STORE 🧢',
@@ -79,7 +74,7 @@ export const links = [
 	},
 	{
 		title: 'New music',
-		items: [		
+		items: [ 		
 			{
 				title: 'Arrivata',
 				href: "https://found.ee/Arrivata_EP",
