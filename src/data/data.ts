@@ -3,9 +3,9 @@ export const links = [
 		title: 'Spotlight 💡',
 		items: [
 			{
-				title: 'Edinburgh Vlog',
-				href: 'https://www.youtube.com/watch?v=CMkRR7It8PI',
-				"image": "https://i.ytimg.com/an_webp/CMkRR7It8PI/mqdefault_6s.webp?du=3000&sqp=CJCV2ccG&rs=AOn4CLDX3OfpiJL6EmFjj3WJKlnAesvUBw"
+				title: 'POPUP FULL SET',
+				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
+				"image": "https://i9.ytimg.com/vi_webp/MInNVoFHhmU/mqdefault.webp?v=68fa23d9&sqp=CKTL6McG&rs=AOn4CLCAB9a5m4pX1Log981P6znb6F7arg"
 			},
 			{
 				title: 'SAY THINGS VIP',
