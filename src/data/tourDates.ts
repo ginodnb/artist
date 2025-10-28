@@ -1,92 +1,36 @@
 export const tourDates = [
     {
-        season: 'Summer 2025',
+        season: 'Q4 25 SZN',
         dates: [
 
-            // {
-            //     date: '26.07',
-            //     location: 'Birmingham',
-            //     venue: 'Lab 11',
-            //     href: 'https://www.skiddle.com/whats-on/Birmingham/LAB11/DNB-Collective-History-Of-Jump-Up/40967332/',
-            //     hrefLabel: 'Tickets',
-            // },
-            // {
-            //     date: '27.07',
-            //     location: 'Belgium',
-            //     venue: 'Tomorrowland Festival',
-            //     href: 'https://belgium.tomorrowland.com/en/welcome/',
-            //     hrefLabel: 'Tickets',
-            // },
-            // {
-            //     date: '01.08',
-            //     location: 'Prague',
-            //     venue: 'Let It Roll Festival',
-            //     href: 'https://www.letitroll.eu/',
-            //     hrefLabel: 'Tickets',
-            // },
+
             {
-                date: '04.09',
-                location: 'ADELAIDE',
-                venue: 'DIV-DE',
-                href: 'https://events.inhibit.net.au/cruclash',
+                date: '31.10',
+                location: 'Bristol',
+                venue: 'Lakota',
+                href: 'https://dice.fm/partner/dice/event/l8rx3x-the-lakota-haunted-house-party-31st-oct-lakota-bristol-tickets?dice_id=6898044&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=1413229136384831755&utm_source=web&utm_campaign=DICE&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1S9OSTMxN7U0NUu0SLOvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQCI5LT8OwAAAA%3D%3D',
+                hrefLabel: 'Sold Out',
+            },
+            {
+                date: '22.11',
+                location: 'Ghent, BE',
+                venue: 'Artcube',
+                href: 'https://shop.weeztix.com/8badc312-57cc-4380-92c1-5ee166b672d8/tickets?shop_code=y5vq5tv9',
                 hrefLabel: 'Tickets',
             },
             {
-                date: '05.09',
-                location: 'BRISBANE',
-                venue: 'Eclipse',
-                href: 'https://events.inhibit.net.au/cruclash',
-                hrefLabel: 'Tickets',
-            },
-            {
-                date: '06.09',
-                location: 'PERTH',
-                venue: 'Metro City',
-                href: 'https://events.inhibit.net.au/cruclash',
-                hrefLabel: 'Tickets',
-            },
-            
-            {
-                date: '12.09',
-                location: 'Guildford',
-                venue: 'TBA',
+                date: '19.12',
+                location: 'Granada, ES',
+                venue: 'Industrial Copera',
                 href: '#',
-                hrefLabel: 'Tickets',
+                hrefLabel: 'Tickets SOON',
             },
             {
-                date: '13.09',
-                location: 'Cardiff',
-                venue: 'POV Audio',
+                date: '31.12',
+                location: 'TBC',
+                venue: 'TBC',
                 href: '#',
-                hrefLabel: 'Tickets',
-            },
-            {
-                date: '14.09',
-                location: 'London',
-                venue: 'DNB Allstars Festival',
-                href: 'https://www.dnballstars.uk/',
-                hrefLabel: 'Tickets',
-            },
-            {
-                date: '25.09',
-                location: 'Secret Show',
-                venue: 'More info soon',
-                href: '#',
-                hrefLabel: '',
-            },
-            {
-                date: '26.09',
-                location: 'Milton Keynes',
-                venue: 'Unit 9',
-                href: 'https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/CruCast-Milton-Keynes/41305933/',
-                hrefLabel: 'Tickets',
-            },
-            {
-                date: '27.09',
-                location: 'Edinburgh',
-                venue: 'Woodland Dance Project',
-                href: 'https://www.skiddle.com/festivals/woodland-dance-project/',
-                hrefLabel: 'Tickets',
+                hrefLabel: 'Tickets SOON',
             },
             
             
