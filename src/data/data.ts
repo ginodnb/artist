@@ -4,7 +4,7 @@ export const links = [
 		items: [
 			{
 				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
-				href: 'https://www.beatport.com/release/london-gino-remix/5503112',
+				href: 'https://idol-io.ffm.to/london',
 				"image": "https://geo-media.beatport.com/image_size/1400x1400/913c54c9-5e18-4e9f-8bcc-67dec20f846a.jpg"
 			},
 			{
