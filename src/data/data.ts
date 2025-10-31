@@ -3,15 +3,16 @@ export const links = [
 		title: 'Spotlight 💡',
 		items: [
 			{
+				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
+				href: 'https://www.beatport.com/release/london-gino-remix/5503112',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/913c54c9-5e18-4e9f-8bcc-67dec20f846a.jpg"
+			},
+			{
 				title: 'POPUP FULL SET',
 				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
 				"image": "https://i9.ytimg.com/vi_webp/MInNVoFHhmU/mqdefault.webp?v=68fa23d9&sqp=CPTagcgG&rs=AOn4CLBiy-QWZ_yHfSg1NofY6ozBocCKtA"
 			},
-			{
-				title: 'SAY THINGS VIP',
-				href: 'https://slinky.to/SayThingsVIP',
-				"image": "https://cdn.anthology.to/preview/image/md_crop_webp/153704ee-1002-4bd7-bec8-492c145b888a.webp"
-			},
+	
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
@@ -81,6 +82,11 @@ export const links = [
 		title: 'New music',
 		items: [ 	
 			{
+				title: 'SAY THINGS VIP',
+				href: 'https://slinky.to/SayThingsVIP',
+				"image": "https://cdn.anthology.to/preview/image/md_crop_webp/153704ee-1002-4bd7-bec8-492c145b888a.webp"
+			},
+			{
 				title: 'Ascension',
 				"href": "https://www.crucast.com/ascension",
 				image: "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/11fd3f30-a3f5-4d3e-b11a-45bf0c0fca6c/Gino+-+Ascension.jpg"
@@ -94,11 +100,6 @@ export const links = [
 				title: 'SHNB /W BOU, TURNO, AUDIT',
 				href: "https://cygnusmusic.link/bsidesmixtape?fbclid=PAZXh0bgNhZW0CMTEAAaeNtgf26roweCT5o8WyLiEFpSnc2E6ZAnOKPciKaD1x_jxQWKrWcFHhZDp9iQ_aem_pP3AM509Y984UARKay_3fg",
         		image: "https://geo-media.beatport.com/image_size/1400x1400/c91e41d8-a2d0-4eeb-b86d-698a60ae20b0.jpg"
-			},
-			{
-				title: 'MAINSTREAM REMIX',
-				href: 'https://higheq.lnk.to/RUN051DA',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/83607846-58f8-4573-a964-e9fb435c67e8.jpg"
 			},
 			{
 				title: 'Fatto In Casa Remix',
