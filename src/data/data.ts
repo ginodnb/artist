@@ -3,6 +3,11 @@ export const links = [
 		title: 'Spotlight 💡',
 		items: [
 			{
+				title: 'VIOLENCE WITH VISLA',
+				href: 'https://found.ee/Panopticon-EP',
+				"image": "https://static.found.ee/user/312753/res-e0fbeabc-ef84-45f1-bb38-e3cd1545147b-Panopticon-EP-900px.jpg"
+			},
+			{
 				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
 				href: 'https://idol-io.ffm.to/london',
 				"image": "https://geo-media.beatport.com/image_size/1400x1400/913c54c9-5e18-4e9f-8bcc-67dec20f846a.jpg"
