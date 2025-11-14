@@ -2,14 +2,12 @@ export const tourDates = [
     {
         season: 'Q4 25 SZN',
         dates: [
-
-
-            {
-                date: '31.10',
-                location: 'Bristol',
-                venue: 'Lakota',
-                href: 'https://dice.fm/partner/dice/event/l8rx3x-the-lakota-haunted-house-party-31st-oct-lakota-bristol-tickets?dice_id=6898044&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=1413229136384831755&utm_source=web&utm_campaign=DICE&utm_medium=mio_marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1S9OSTMxN7U0NUu0SLOvK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQCI5LT8OwAAAA%3D%3D',
-                hrefLabel: 'Sold Out',
+                        {
+                date: '15.11',
+                location: 'Amsterdam',
+                venue: 'Insomnia',
+                href: 'https://shop.weeztix.com/4b9da71a-8363-11f0-a9cb-7e126431635e/tickets?shop_code=q5edv69q&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnpqh9c-L5xQfD_vD8RXG1Akra35usMWz8bUfZDmDTPsQGq2gh2DIs86HMtUk_aem_6d8bLbz2IaLn4pWJwNZSVg',
+                hrefLabel: 'Tickets',
             },
             {
                 date: '22.11',
@@ -19,9 +17,23 @@ export const tourDates = [
                 hrefLabel: 'Tickets',
             },
             {
+                date: '06.12',
+                location: 'Nottingham',
+                venue: 'Secret Vault',
+                href: 'https://www.skiddle.com/whats-on/Nottingham/Secret-Vault-Nottingham/Profile-presentsFrequency-Nottingham/41496495/',
+                hrefLabel: 'Tickets',
+            },
+            {
                 date: '19.12',
                 location: 'Granada, ES',
                 venue: 'Industrial Copera',
+                href: '#',
+                hrefLabel: 'Tickets SOON',
+            },
+            {
+                date: '27.12',
+                location: 'Basel',
+                venue: 'Info soon',
                 href: '#',
                 hrefLabel: 'Tickets SOON',
             },

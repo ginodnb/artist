@@ -17,13 +17,11 @@ export const links = [
 				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
 				"image": "https://i9.ytimg.com/vi_webp/MInNVoFHhmU/mqdefault.webp?v=68fa23d9&sqp=CPTagcgG&rs=AOn4CLBiy-QWZ_yHfSg1NofY6ozBocCKtA"
 			},
-	
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
         		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
-
 						{
 				title: 'MERCH STORE 🧢',
 				href: 'https://clam-records.myshopify.com/',
