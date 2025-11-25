@@ -44,6 +44,20 @@ export const tourDates = [
                 href: '#',
                 hrefLabel: 'Tickets SOON',
             },
+            {
+                date: '13.02',
+                location: 'London',
+                venue: 'Fabric',
+                href: 'https://www.skiddle.com/e/41612690 ',
+                hrefLabel: 'Tickets',
+            },
+            {
+                date: '14.02',
+                location: 'Bognor Regis',
+                venue: 'TBC',
+                href: '#',
+                hrefLabel: 'Tickets SOON',
+            },
             
             
         ]
