@@ -5,6 +5,8 @@ import { links, heroLinks } from '@data/data';
 
 interface Props {
   profileImage?: string;
+  profileImage320?: string;
+  profileImage800?: string;
   name?: string;
   bio?: string;
   title?: string;
@@ -15,15 +17,23 @@ interface Props {
   cta?: { label?: string; href?: string };
   gradient?: string;
 }
-const { profileImage = '/images/EDIT-23.jpg', name = 'Gino', bio = '', title = 'OUTSIDERS', location = 'Brighton', emoji = '📡', date = '28/11/25', description = '', cta = { label: 'See Tour Dates', href: '/tour-dates' }, gradient = 'bg-gradient-to-b from-[#0b3b66] via-[#1b4f8b] to-[#070F2B]' } = Astro.props as Props;
+const { profileImage = '/images/EDIT-23-800.jpg', profileImage320 = '/images/EDIT-23-320.jpg', profileImage800 = '/images/EDIT-23-800.jpg', name = 'Gino', bio = '', title = 'OUTSIDERS', location = 'Brighton', emoji = '📡', date = '28/11/25', description = '', cta = { label: 'See Tour Dates', href: '/tour-dates' }, gradient = 'bg-gradient-to-b from-[#0b3b66] via-[#1b4f8b] to-[#070F2B]' } = Astro.props as Props;
 ---
 <section class={`w-full py-10 ${gradient} text-white rounded-b-xl`}> <!-- optional gradient wrapper -->
   <div class="max-w-6xl mx-auto px-4">
     <div class="grid lg:grid-cols-12 gap-8 items-start">
       <!-- Left column: Profile + Social links -->
       <div class="lg:col-span-4 flex flex-col items-center lg:items-start gap-6">
-        <div class="rounded-xl bg-black bg-opacity-30 p-4 shadow-2xl w-fit transform-gpu">
-          <img src={profileImage} alt={name} class="w-48 h-48 object-cover rounded-2xl border-4 border-gray-700 shadow-inner" />
+          <div class="rounded-xl bg-black bg-opacity-30 p-4 shadow-2xl w-fit transform-gpu">
+          <img
+            src={profileImage}
+            srcset={`${profileImage320} 320w, ${profileImage800} 800w`}
+            sizes="(max-width: 640px) 40vw, 192px"
+            alt={name}
+            width="192" height="192"
+            loading="eager"
+            decoding="async"
+            class="w-48 h-48 object-cover rounded-2xl border-4 border-gray-700 shadow-inner" />
         </div>
         <div class="text-center lg:text-left">
           <div class="flex items-center gap-2">

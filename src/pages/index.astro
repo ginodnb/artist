@@ -12,7 +12,7 @@ import LinkComponent from '@components/LinkComponent.astro';
 		<main class="flex flex-col gap-2 pb-20">
 
 			<!-- Hero Event section added before the lists -->
-			<HeroEvent name={profile.name} bio={profile.bio} profileImage={profile.image} title={event.title} location={event.location} emoji={event.emoji} date={event.date} description={event.description} cta={ctas.tourDates} />
+			<HeroEvent name={profile.name} bio={profile.bio} profileImage={profile.image} profileImage320={profile.image320} profileImage800={profile.image800} title={event.title} location={event.location} emoji={event.emoji} date={event.date} description={event.description} cta={ctas.tourDates} />
 
 		{links.map((link) => (
 			<section class="w-full max-w-[640px] mx-auto mt-4 rounded-lg">

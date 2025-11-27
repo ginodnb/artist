@@ -1,6 +1,8 @@
 export const profile = {
 	name: 'Ginodnb',
-	image: '/images/EDIT-23.jpg',
+	image: '/images/EDIT-23-800.jpg',
+	image800: '/images/EDIT-23-800.jpg',
+	image320: '/images/EDIT-23-320.jpg',
 	username: '@ginodnb',
 	bio: 'it gets like that..'
 };
