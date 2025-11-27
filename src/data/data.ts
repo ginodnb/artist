@@ -1,6 +1,55 @@
+export const profile = {
+	name: 'Ginodnb',
+	image: '/images/EDIT-23.jpg',
+	username: '@ginodnb',
+	bio: 'it gets like that..'
+};
+
+// Centralized event data for hero
+export const event = {
+	title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
+	location: '',
+	date: '',
+	description: 'It gets like that'
+	,emoji: '📡'
+};
+
+// CTA / actions used across the site (centralized)
+export const ctas = {
+    tourDates: {
+        label: 'See Tour Dates',
+        href: '/tour-dates'
+    }
+};
+
+// Optional: links to show specifically in the hero/profile card. If empty or not present,
+// the `Links` section from `links` will be used instead.
+export const heroLinks = [
+	{
+		title: 'Spotify',
+		href: 'https://open.spotify.com/artist/6xYGLouunUz3QAYt2aJF2E?si=maFO2JnrSVe-PsoSrH4WkQ',
+		image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK9HDsz9khs2XrgeC6S5Zsq9sAAvv60wBPpA&s'
+	},
+	{
+		title: 'Apple Music',
+		href: 'https://music.apple.com/gb/artist/gino/1466211539',
+		image: 'https://ipcdn-web.apple.com/assets/v2/web/d13ee758-9e69-44d4-9d4e-64a8f07bf668'
+	},
+	{
+		title: 'Instagram',
+		href: 'https://instagram.com/ginodnb',
+		image: 'https://pnglove.com/data/img/348_HvMf.jpg'
+	},
+	{
+		title: 'Youtube',
+		href: 'https://www.youtube.com/@ginodnb',
+		image: 'https://www.vhv.rs/dpng/d/456-4566575_youtube-instagram-facebook-icon-youtube-logo-png-transparent.png'
+	},
+];
+
 export const links = [
 	{
-		title: 'Spotlight 💡',
+		title: 'Links 🔗',
 		items: [
 			{
 				title: 'VIOLENCE WITH VISLA',

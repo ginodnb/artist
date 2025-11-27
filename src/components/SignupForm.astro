@@ -1,0 +1,61 @@
+---
+interface Props {
+  action?: string;
+}
+const { action = '/api/subscribe' } = Astro.props as Props;
+---
+<form method="POST" id="signup-form" action={action} class="w-full rounded-xl bg-gray-800 bg-opacity-70 p-6 shadow-lg text-white">
+  <input type="hidden" name="subject" value="New Signup from website" />
+  <div class="grid gap-4">
+    <h3>Sign Up to my mailing list :)</h3>
+    <label class="text-sm font-semibold">Email Address <span class="text-xs text-gray-400">(Required)</span></label>
+    <input type="email" name="email" placeholder="name@email.com" required class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400" />
+
+    <!-- <label class="text-sm font-semibold">Phone Number <span class="text-xs text-gray-400">(Required)</span></label>
+    <div class="flex gap-2 items-center">
+      <select name="country" aria-label="Country" class="p-3 rounded-md bg-gray-700 bg-opacity-50">
+        <option value="uk">🇬🇧 +44</option>
+        <option value="us">🇺🇸 +1</option>
+      </select>
+      <input type="tel" name="phone" placeholder="+44 7123 456789" required class="flex-1 p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none" />
+    </div> -->
+
+    <label class="text-sm font-semibold">First & Last Name <span class="text-xs text-gray-400">(Required)</span></label>
+    <div class="grid grid-cols-2 gap-2">
+      <input type="text" name="firstName" placeholder="Jane" required class="p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none" />
+      <input type="text" name="lastName" placeholder="Doe" required class="p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none" />
+    </div>
+
+    <button type="submit" class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg">Sign Up</button>
+    <p class="text-xs text-gray-400 mt-2">By submitting my info, I consent to receive recurring automated marketing messages. Reply STOP to cancel. MSG will be sent to your number. See Terms and Privacy.</p>
+  </div>
+    <p id="signup-success" class="hidden text-sm mt-2 text-green-400">Thanks! Check your email for confirmation.</p>
+    <p id="signup-error" class="hidden text-sm mt-2 text-red-400">There was an error with the signup. Please try again.</p>
+  </div>
+
+  <script type="module">
+    const form = document.getElementById('signup-form');
+    const success = document.getElementById('signup-success');
+    const error = document.getElementById('signup-error');
+    form?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      success?.classList.add('hidden');
+      error?.classList.add('hidden');
+      const data = new FormData(form);
+      try {
+        const res = await fetch(form.action, { method: 'POST', body: data });
+        const json = await res.json();
+        if (res.ok) {
+          success?.classList.remove('hidden');
+          form.reset();
+        } else {
+          console.error('Signup failed', json);
+          error?.classList.remove('hidden');
+        }
+      } catch (err) {
+        console.error('Signup error', err);
+        error?.classList.remove('hidden');
+      }
+    });
+  </script>
+</form>

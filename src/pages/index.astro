@@ -1,15 +1,19 @@
 ---
 import Layout from '@layouts/Layout.astro';
-import Header from '@components/Header.astro';
-import { links } from '@data/data';
+// Header intentionally not included on this page because Hero handles top-of-page content
+import { links, profile, event, ctas } from '@data/data';
+import HeroEvent from '@components/HeroEvent.astro';
 import LinkComponent from '@components/LinkComponent.astro';
 ---
 
 <Layout className='text-gray-900 dark:text-white'>
 
-	<Header />
+		<!-- Header removed — HeroEvent replaces the top banner -->
+		<main class="flex flex-col gap-2 pb-20">
 
-	<main class="flex flex-col gap-2 pb-20">
+			<!-- Hero Event section added before the lists -->
+			<HeroEvent name={profile.name} bio={profile.bio} profileImage={profile.image} title={event.title} location={event.location} emoji={event.emoji} date={event.date} description={event.description} cta={ctas.tourDates} />
+
 		{links.map((link) => (
 			<section class="w-full max-w-[640px] mx-auto mt-4 rounded-lg">
 				{ link.title ? <h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold">{link.title}</h2> : null }
