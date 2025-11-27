@@ -10,7 +10,9 @@ export default defineConfig({
   site: 'https://www.ginodnb.com',
   integrations: [solidJs(), tailwind(), sitemap()],
   compressHTML: !import.meta.env.DEV,
-  output: 'static',
+  // Use server output so API routes (serverless functions) work during local development
+  // and with adapters that support server runtime (Vercel/Netlify).
+  output: 'server',
   build: {
     assets: "assets",
   },

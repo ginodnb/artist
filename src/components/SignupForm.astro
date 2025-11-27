@@ -34,41 +34,77 @@ const { action = '/api/subscribe' } = Astro.props as Props;
   </div>
 
   <script type="module">
-const form = document.getElementById('form');
-const submitBtn = form.querySelector('button[type="submit"]');
+  const form = document.getElementById('signup-form');
+  const success = document.getElementById('signup-success');
+  const error = document.getElementById('signup-error');
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalText = submitBtn.textContent;
 
-form.addEventListener('submit', async (e) => {
+  const FALLBACK_WEB3FORMS = 'https://api.web3forms.com/submit';
+  const PUBLIC_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
-
-    const formData = new FormData(form);
-    formData.append("access_key", "fdb4f729-96ef-4567-8d41-7f716daaed1e");
-
-    const originalText = submitBtn.textContent;
-
-    submitBtn.textContent = "Sending...";
+    success?.classList.add('hidden');
+    error?.classList.add('hidden');
     submitBtn.disabled = true;
+    submitBtn.textContent = 'Sending...';
+
+    const data = new FormData(form);
 
     try {
-        const response = await fetch("https://api.web3forms.com/submit", {
-            method: "POST",
-            body: formData
-        });
+      console.log('Signup form: action=', form.action);
+      let res = null;
 
-        const data = await response.json();
+      // Try serverless endpoint first
+      try {
+        console.log('Attempting serverless POST to', form.action);
+        res = await fetch(form.action, { method: 'POST', body: data });
+        console.log('Serverless response', res.status);
+      } catch (err) {
+        console.warn('Serverless POST failed (possible 404 or CORS):', err);
+        res = null;
+      }
 
-        if (response.ok) {
-            alert("Success! Your message has been sent.");
-            form.reset();
-        } else {
-            alert("Error: " + data.message);
+      // If no response or 404, and we have a PUBLIC KEY fallback, try web3forms
+      if ((res === null || res.status === 404) && PUBLIC_KEY) {
+        console.log('Falling back to web3forms via PUBLIC key (client-side). Not recommended for production where serverless is supported.');
+        // Set name if first/last exist
+        const firstName = data.get('firstName')?.toString() ?? '';
+        const lastName = data.get('lastName')?.toString() ?? '';
+        if (firstName || lastName) {
+          const combined = `${firstName}${firstName && lastName ? ' ' : ''}${lastName}`.trim();
+          data.set('name', combined);
         }
+        data.set('access_key', PUBLIC_KEY);
+        res = await fetch(FALLBACK_WEB3FORMS, { method: 'POST', body: data });
+      }
 
-    } catch (error) {
-        alert("Something went wrong. Please try again.");
+      if (!res) throw new Error('No response from server (and no fallback configured)');
+      console.log('Final response status', res.status);
+      if (res.status === 404) {
+        console.error('Signup route not found (404).');
+        error?.classList.remove('hidden');
+        return;
+      }
+
+      const json = await res.json();
+      console.log('Response JSON:', json);
+      if (res.ok) {
+        success?.classList.remove('hidden');
+        form.reset();
+      } else {
+        console.error('Signup failed', json);
+        error?.classList.remove('hidden');
+      }
+    } catch (err) {
+      console.error('Signup error', err);
+      error?.classList.remove('hidden');
     } finally {
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
+      submitBtn.textContent = originalText;
+      submitBtn.disabled = false;
     }
-});
+  });
+
   </script>
 </form>
