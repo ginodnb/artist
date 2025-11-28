@@ -96,7 +96,7 @@ export const links = [
 		title: 'Show dates & tickets 🎫',
 		items: [
 			{
-				title: 'GIG TICKETS  📆',
+				title: 'GIG TICKETSs  📆',
 				"href": "/tour-dates",
         		"image": "https://image.rinse.fm/_/GINO-33-Gino-Arnone.jpg?w=1200&h=1200"
 			},
