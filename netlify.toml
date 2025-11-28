@@ -1,0 +1,14 @@
+[build]
+  command = "pnpm build"
+  publish = "dist"
+  # Netlify uses node for serverless functions. Adjust if needed for specific environment.
+
+[functions]
+  # Netlify adapter will generate functions in this directory
+  directory = "dist/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/astro"
+  status = 200
+  force = true
