@@ -1,14 +1,6 @@
 [build]
   command = "pnpm build"
   publish = "dist"
-  # Netlify uses node for serverless functions. Adjust if needed for specific environment.
 
-[functions]
-  # Netlify adapter generates functions in .netlify/v1/functions/
-  directory = ".netlify/v1/functions"
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/ssr"
-  status = 200
-  force = true
+# Functions are auto-detected in .netlify/functions-internal by Netlify adapter
+# Redirects are handled by dist/_redirects file generated during build
