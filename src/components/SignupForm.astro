@@ -14,15 +14,6 @@ const { action = 'https://api.web3forms.com/submit' } = Astro.props as Props;
     <label class="text-sm font-semibold">Email Address <span class="text-xs text-gray-400">(Required)</span></label>
     <input type="email" name="email" placeholder="name@email.com" required class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400" />
 
-    <!-- <label class="text-sm font-semibold">Phone Number <span class="text-xs text-gray-400">(Required)</span></label>
-    <div class="flex gap-2 items-center">
-      <select name="country" aria-label="Country" class="p-3 rounded-md bg-gray-700 bg-opacity-50">
-        <option value="uk">🇬🇧 +44</option>
-        <option value="us">🇺🇸 +1</option>
-      </select>
-      <input type="tel" name="phone" placeholder="+44 7123 456789" required class="flex-1 p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none" />
-    </div> -->
-
     <label class="text-sm font-semibold">Message</label>
     <textarea name="message" placeholder="Leave your message" rows="3" class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none"></textarea>
 
