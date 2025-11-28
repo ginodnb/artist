@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm build"
+  command = "bash .netlify/install.sh && pnpm install && pnpm build"
   publish = "dist"
 
 # Functions are auto-detected in .netlify/functions-internal by Netlify adapter
