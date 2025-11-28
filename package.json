@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && mkdir -p dist/functions && cp -R netlify/functions/* dist/functions/ && echo '/* /.netlify/functions/ssr 200!' > dist/_redirects || true",
+    "build": "astro build && echo '/* /.netlify/functions/ssr 200!' > dist/_redirects",
     "preview": "astro preview",
     "astro": "astro"
   },

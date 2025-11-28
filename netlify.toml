@@ -4,8 +4,8 @@
   # Netlify uses node for serverless functions. Adjust if needed for specific environment.
 
 [functions]
-  # Netlify adapter will generate functions in this directory
-  directory = "dist/functions"
+  # Netlify adapter generates functions in .netlify/v1/functions/
+  directory = ".netlify/v1/functions"
 
 [[redirects]]
   from = "/*"
