@@ -2,7 +2,7 @@
 import { defineConfig } from 'astro/config';
 import solidJs from '@astrojs/solid-js';
 import tailwind from '@astrojs/tailwind';
-import netlify from '@astrojs/netlify';
+// NOTE: For the static-deploy branch we use static output to restore a previous static build
 
 import sitemap from '@astrojs/sitemap';
 
@@ -10,11 +10,9 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://www.ginodnb.com',
   integrations: [solidJs(), tailwind(), sitemap()],
-  adapter: netlify(),
   compressHTML: !import.meta.env.DEV,
-  // Use server output so API routes (serverless functions) work during local development
-  // and with adapters that support server runtime (Vercel/Netlify).
-  output: 'server',
+  // Use static output to restore a prior (static) version of the site for the fallback deploy
+  output: 'static',
   build: {
     assets: "assets",
   },

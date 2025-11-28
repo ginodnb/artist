@@ -3,12 +3,13 @@
   publish = "dist"
   # Netlify uses node for serverless functions. Adjust if needed for specific environment.
 
-[functions]
+#[functions]
   # Netlify adapter will generate functions in this directory
-  directory = "dist/functions"
+  # directory = "dist/functions"
 
 [[redirects]]
+  # For the static fallback branch, route everything to index.html so the old static site works
   from = "/*"
-  to = "/.netlify/functions/ssr"
+  to = "/index.html"
   status = 200
-  force = true
+  force = false
