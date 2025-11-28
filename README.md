@@ -46,3 +46,23 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## 🛠 Deployment & Netlify configuration
+
+This repo includes a Netlify adapter and a serverless endpoint for securely forwarding form submissions (e.g., `src/pages/api/subscribe.ts` forwards to web3forms using a server-side `WEB3FORMS_SECRET`).
+
+Follow these steps when deploying to Netlify:
+
+1. In your Netlify site dashboard, add the following environment variables:
+	- `WEB3FORMS_SECRET`: Your web3forms **server** secret.
+	- `PUBLIC_WEB3FORMS_KEY`: Optional public key for client fallback in case the serverless function is unavailable.
+	- `DEPLOY_ID`: Optional. Netlify adapter uses this for skew protection in special cases.
+
+2. Build settings:
+	- Command: `pnpm build`
+	- Publish directory: `dist/`
+
+3. The `netlify.toml` file in the repo configures Netlify to use `dist/functions` and redirects all requests to the Netlify function for server rendering.
+
+4. Re-deploy your site. API endpoints like `/api/subscribe` should now be available and forwarded to web3forms using the server secret.
+
