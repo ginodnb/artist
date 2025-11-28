@@ -1,6 +1,11 @@
 [build]
   command = "bash .netlify/install.sh && pnpm install && pnpm build"
   publish = "dist"
+  
+  [build.environment]
+    NODE_VERSION = "20"
+    PNPM_VERSION = "9"
+    NETLIFY_DISABLE_EXTENSIONS = "1"
 
 # Functions are auto-detected in .netlify/functions-internal by Netlify adapter
 # Redirects are handled by dist/_redirects file generated during build
