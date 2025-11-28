@@ -9,10 +9,8 @@ import netlify from '@astrojs/netlify';
 export default defineConfig({
   site: 'https://www.ginodnb.com',
   integrations: [solidJs(), tailwind(), sitemap()],
-  adapter: netlify(),
   compressHTML: !import.meta.env.DEV,
-  // Enable SSR for Netlify
-  output: 'server',
+  output: 'static',
   build: {
     assets: "assets",
   },

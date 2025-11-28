@@ -5,13 +5,3 @@
   [build.environment]
     NODE_VERSION = "20"
     PNPM_VERSION = "9"
-    NETLIFY_DISABLE_EXTENSIONS = "1"
-
-# Functions auto-detected by Netlify adapter in .netlify/functions-internal/
-# Redirects handled by dist/_redirects file + TOML redirect below
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/ssr"
-  status = 200
-  force = true
