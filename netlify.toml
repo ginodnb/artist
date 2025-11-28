@@ -1,5 +1,5 @@
 [build]
-  command = "bash .netlify/install.sh && pnpm install && pnpm build"
+  command = "pnpm install && pnpm build"
   publish = "dist"
   
   [build.environment]
