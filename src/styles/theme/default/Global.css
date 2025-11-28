@@ -16,17 +16,4 @@ html, body {
 } */
 
 
-@keyframes fall {
-  0% {
-    transform: translateY(-10%);
-    opacity: 0.8;
-  }
-  100% {
-    transform: translateY(110vh);
-    opacity: 0;
-  }
-}
-
-.animate-fall {
-  animation: fall 6s linear infinite;
-}
+/* Removed `fall` animation and `.animate-fall` styles when dropping falling colored circles from layout */

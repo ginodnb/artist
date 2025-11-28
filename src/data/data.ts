@@ -47,6 +47,16 @@ export const heroLinks = [
 		href: 'https://www.youtube.com/@ginodnb',
 		image: 'https://www.vhv.rs/dpng/d/456-4566575_youtube-instagram-facebook-icon-youtube-logo-png-transparent.png'
 	},
+	{
+		title: 'Patreon',
+		href: 'https://patreon.com/Ginodnb?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink',
+		image: 'https://companieslogo.com/img/orig/patreon.D-5ae44702.png?t=1720244494'
+	},
+	{
+		title: 'TikTok',
+		href: 'https://www.tiktok.com/@ginodnb',
+		image: 'https://icon2.cleanpng.com/20240214/kxl/transparent-tiktok-logo-tiktok-logo-blue-and-pink-lettering-re-retro-style-tiktok-logo-evoking-1950s-1710878265139.webp'
+	},
 ];
 
 export const links = [
@@ -66,7 +76,7 @@ export const links = [
 			{
 				title: 'POPUP FULL SET',
 				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
-				"image": "https://i9.ytimg.com/vi_webp/MInNVoFHhmU/mqdefault.webp?v=68fa23d9&sqp=CPTagcgG&rs=AOn4CLBiy-QWZ_yHfSg1NofY6ozBocCKtA"
+				"image": "https://i.ytimg.com/vi/MInNVoFHhmU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAkKTzfYlAPV7vjCVz8XyCubBunqg"
 			},
 			{
 				title: 'Gino on Patreon 🤌',
@@ -108,7 +118,7 @@ export const links = [
 			{
 				title: 'Subzero vs Gino - Cruclash',
 				"href": "https://youtu.be/We0npmuJ118?si=XOz8nectrsjrgQCA",
-        		"image": "https://i.ytimg.com/an_webp/We0npmuJ118/mqdefault_6s.webp?du=3000&sqp=CLyngcgG&rs=AOn4CLAcOD-PTgErmW4wcvmbpDrTM7Tkig"
+        		"image": "https://i.ytimg.com/vi/We0npmuJ118/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDvTq8uLWUSNMmukLW43nD8NQ3jYQ"
 			},
 			// {
 			// 	title: 'August 24 studio mix',
