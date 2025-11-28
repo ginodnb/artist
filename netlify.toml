@@ -7,12 +7,8 @@
     PNPM_VERSION = "9"
     NETLIFY_DISABLE_EXTENSIONS = "1"
 
-[functions]
-  # Leave empty - adapter auto-detects in .netlify/functions-internal/
-  directory = ""
-
-# Functions are auto-detected in .netlify/functions-internal by Netlify adapter
-# Redirects are handled by dist/_redirects file generated during build
+# Functions auto-detected by Netlify adapter in .netlify/functions-internal/
+# Redirects handled by dist/_redirects file + TOML redirect below
 
 [[redirects]]
   from = "/*"
