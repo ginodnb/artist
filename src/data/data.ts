@@ -19,7 +19,7 @@ export const event = {
 // CTA / actions used across the site (centralized)
 export const ctas = {
     tourDates: {
-        label: 'See Tour Dates',
+        label: 'See Tour Dates 📆',
         href: '/tour-dates'
     }
 };
@@ -61,13 +61,8 @@ export const heroLinks = [
 
 export const links = [
 	{
-		title: 'Links 🔗',
+		title: 'NEW STUFF 🔗',
 		items: [
-			{
-				title: 'VIOLENCE WITH VISLA',
-				href: 'https://found.ee/Panopticon-EP',
-				"image": "https://static.found.ee/user/312753/res-e0fbeabc-ef84-45f1-bb38-e3cd1545147b-Panopticon-EP-900px.jpg"
-			},
 			{
 				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
 				href: 'https://idol-io.ffm.to/london',
@@ -92,21 +87,16 @@ export const links = [
 
 		]
 	},
-	{
-		title: 'Show dates & tickets 🎫',
-		items: [
-			{
-				title: 'GIG TICKETSs  📆',
-				"href": "/tour-dates",
-        		"image": "https://image.rinse.fm/_/GINO-33-Gino-Arnone.jpg?w=1200&h=1200"
-			},
-			// {
-			// 	title: 'DnB Allstars Festival',
-			// 	"href": "https://www.dnballstars.uk/",
-        	// 	"image": "https://ugc.production.linktr.ee/a3c1333f-4366-43b3-97cc-087265b8c5f1_Festival-Logo-v2-compressed.png?io=true&size=thumbnail-stack-v1_0"
-			// },
-		]
-	},
+	// {
+	// 	title: 'Show dates & tickets 🎫',
+	// 	items: [
+	// 		{
+	// 			title: 'GIG TICKETSs  📆',
+	// 			"href": "/tour-dates",
+    //     		"image": "https://image.rinse.fm/_/GINO-33-Gino-Arnone.jpg?w=1200&h=1200"
+	// 		},
+	// 	]
+	// },
 	{
 		title: 'Live sets / mixes',
 		items: [
@@ -136,7 +126,7 @@ export const links = [
         		"image": "https://ugc.production.linktr.ee/dd10c1d5-e5d4-4a49-a5d2-23ab190cbd53_192677d5-2d5d-4fd3-874b-c4e0457bdda2-maxresdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
-				title: 'Gino presents the "It Gets Like That" Show',
+				title: 'My Kool FM show   📻',
 				"href": "https://www.rinse.fm/shows/the-it-gets-like-that-show-with-gino/",
         		"image": "https://image.rinse.fm/_/GINO-36-Gino-Arnone.jpg?w=1200&h=1200"
 			},
@@ -145,6 +135,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 	
+			{
+				title: 'VIOLENCE WITH VISLA',
+				href: 'https://found.ee/Panopticon-EP',
+				"image": "https://static.found.ee/user/312753/res-e0fbeabc-ef84-45f1-bb38-e3cd1545147b-Panopticon-EP-900px.jpg"
+			},
 			{
 				title: 'SAY THINGS VIP',
 				href: 'https://slinky.to/SayThingsVIP',
@@ -197,16 +192,16 @@ export const links = [
 			// },
 		]
 	},
-	{
-		title: 'Sign up to my mailing list',
-		items: [
-			{
-				title: 'It gets like that',
-				href: 'https://itgetslikethat.com/',
-				image: '/images/blank.png'
-			}
-		]
-	},
+	// {
+	// 	title: 'Sign up to my mailing list',
+	// 	items: [
+	// 		{
+	// 			title: 'It gets like that',
+	// 			href: 'https://itgetslikethat.com/',
+	// 			image: '/images/blank.png'
+	// 		}
+	// 	]
+	// },
 	{
 		title: 'Links',
 		items: [
@@ -215,16 +210,6 @@ export const links = [
 				title: 'Gino x Crucast DNB Serum Presets',
 				"href": "https://www.crucast.com/shop/gino-x-crucast-dnb-serum-presets",
         "image": "https://ugc.production.linktr.ee/82092020-c492-4a7a-9516-a065e67040a3_WhatsApp-Image-2025-03-28-at-07.32.25.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-						{
-				title: 'Gino invites Amplify',
-				"href": "https://www.rinse.fm/episodes/gino-23-03-2025-1600/",
-        		"image": "https://ugc.production.linktr.ee/177b3cc6-f127-45c6-a3f0-bcbc28195e05_Gino--12-of-71-Gino-Arnone.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-			{
-				title: 'My youtube',
-				href: 'https://www.youtube.com/watch?v=p3tiT9Tbot4&t=330s',
-				image: 'https://ugc.production.linktr.ee/5c4d9a65-595b-4faf-a8ae-d28db3316e54_Screenshot-2024-01-23-at-20.31.09.png?io=true&size=thumbnail-stack-v1_0',
 			},
 			{
 				title: 'Discord',
@@ -242,11 +227,6 @@ export const links = [
 				image: 'https://ugc.production.linktr.ee/d79d96ed-23cf-4d12-8071-0426cefb3798_ab6765630000ba8a26cde7d793b318635ec82d1e.jpeg?io=true&size=thumbnail-stack-v1_0',
 			},
 			{
-				title: 'TikTok',
-				href: 'https://www.tiktok.com/@ginodnb?lang=en',
-				image: 'https://ugc.production.linktr.ee/ca8f7da0-bf5d-4cea-aa38-4aa4e03553fd_tiktok.png?io=true&size=thumbnail-stack-v1_0',
-			},
-			{
 				title: 'SoundCloud',
 				href: 'https://soundcloud.com/ginodnb',
 				image: 'https://ugc.production.linktr.ee/8d3692bd-7aa8-4778-8a90-a3e96bb88a8b_soundcloud-logo.png?io=true&size=thumbnail-stack-v1_0',
@@ -256,16 +236,6 @@ export const links = [
 				href: 'https://gino11.bandcamp.com/',
 				image: 'https://ugc.production.linktr.ee/d914479e-7acf-403c-8548-04991d14ad4e_badcamp-logo.png?io=true&size=thumbnail-stack-v1_0',
 			},
-			{
-				title: 'My spotify profile',
-				href: 'https://open.spotify.com/playlist/0IDsk5HxBC7nfw9iLDGXXy?si=-9g-FUruQMSIAXkPpFpPHQ&utm_medium=share&utm_source=linktree&nd=1&dlsi=d2466030518c4150',
-				image: 'https://ugc.production.linktr.ee/71013f5b-9910-43e0-807c-2a950c71f538_Screenshot-2023-10-19-at-15.15.23.png?io=true&size=thumbnail-stack-v1_0',
-			},
-			{
-				title: 'My apple music profile',
-				href: 'https://music.apple.com/gb/artist/gino/1466211539',
-				image: 'https://ugc.production.linktr.ee/0cb38ad5-5743-4216-a2d7-e9e1c7f7f2f5_apple-landing.png?io=true&size=thumbnail-stack-v1_0',
-			}
 		]
 	},
 ];

@@ -4,6 +4,7 @@ import Layout from '@layouts/Layout.astro';
 import { links, profile, event, ctas } from '@data/data';
 import HeroEvent from '@components/HeroEvent.astro';
 import LinkComponent from '@components/LinkComponent.astro';
+import Accordion from '@components/Accordion.astro';
 ---
 
 <Layout className='text-gray-900 dark:text-white'>
@@ -16,14 +17,22 @@ import LinkComponent from '@components/LinkComponent.astro';
 
 		{links.map((link) => (
 			<section class="w-full max-w-[640px] mx-auto mt-4 rounded-lg">
-				{ link.title ? <h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold">{link.title}</h2> : null }
-				<ul class="flex flex-col gap-4 p-4">
-					{link.items.map((item) => (
-						<li>
-							<LinkComponent href={item.href} image={item.image} title={item.title} />
-						</li>
-					))}
-				</ul>
+				{link.title === 'New music' ? (
+					<div class="px-4">
+						<Accordion title={link.title} items={link.items} />
+					</div>
+				) : (
+					<>
+						{ link.title ? <h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold">{link.title}</h2> : null }
+						<ul class="flex flex-col gap-4 p-4">
+							{link.items.map((item) => (
+								<li>
+									<LinkComponent href={item.href} image={item.image} title={item.title} />
+								</li>
+							))}
+						</ul>
+					</>
+				)}
 			</section>
 		))}
 	</main>
