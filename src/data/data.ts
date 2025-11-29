@@ -106,6 +106,11 @@ export const links = [
         		"image": "https://ugc.production.linktr.ee/2ed5a717-2bf7-4fe5-81ed-2723cf6e9324_artworks-Txd1Fe3rzIh1rj8Q-aqX3lw-t500x500.jpeg?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
+				title: 'RAMPAGE FESTIVAL B2B LATTE & TOXINATE',
+				"href": "https://youtu.be/MOV_HNQ4EN4?si=KkfjFEZhuHe_QAZD",
+				"image": "https://i.ytimg.com/vi/MOV_HNQ4EN4/hqdefault.jpg?v=688605fb"
+			},
+			{
 				title: 'Subzero vs Gino - Cruclash',
 				"href": "https://youtu.be/We0npmuJ118?si=XOz8nectrsjrgQCA",
         		"image": "https://i.ytimg.com/vi/We0npmuJ118/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDvTq8uLWUSNMmukLW43nD8NQ3jYQ"

@@ -37,14 +37,14 @@ const { profileImage = '/images/EDIT-23-800.jpg', profileImage320 = '/images/EDI
         </div>
         <div class="text-center lg:text-left">
           <div class="flex items-center gap-2">
-            <span class="font-bold">{name}</span>
+            <span class="font-bold tracking-wide">{name}</span>
           </div>
-          {bio && <p class="text-sm text-gray-300 mt-1">{bio}</p>}
+          {bio && <p class="text-sm text-gray-300 mt-1 tracking-wide">{bio}</p>}
           <ul class="mt-4 space-y-2 text-gray-200">
             {(heroLinks && heroLinks.length > 0 ? heroLinks : (links.find(l => l.title && l.title.toLowerCase().includes('links') )?.items ?? [])).slice(0,6).map(item => (
               <li class="flex items-center gap-3">
                 <img src={item.image} alt="" class="w-5 h-5 object-contain opacity-80 rounded-full" />
-                <a class="text-sm hover:underline" href={item.href} target="_blank">{ item.title }</a>
+                <a class="text-sm hover:underline tracking-wide" href={item.href} target="_blank">{ item.title }</a>
               </li>
             ))}
           </ul>
@@ -55,20 +55,20 @@ const { profileImage = '/images/EDIT-23-800.jpg', profileImage320 = '/images/EDI
       <div class="lg:col-span-8 flex flex-col gap-4">
         <div class="flex flex-col gap-3 lg:gap-4">
           <div class="leading-tight text-center lg:text-left">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase tracking-tight">{title} {location && <span class="ml-2">{emoji} {location}</span>}</h1>
-            <h2 class="text-2xl md:text-4xl lg:text-5xl mt-2 font-extrabold">{date}</h2>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold uppercase tracking-wide">{title} {location && <span class="ml-2">{emoji} {location}</span>}</h1>
+            <h2 class="text-2xl md:text-4xl lg:text-5xl mt-2 font-extrabold tracking-wide">{date}</h2>
           </div>
-          {description && <p class="text-lg text-gray-200 max-w-2xl mx-auto lg:mx-0">{description}</p>}
+          {description && <p class="text-lg text-gray-200 max-w-2xl mx-auto lg:mx-0 tracking-wide">{description}</p>}
         </div>
 
         <div class="mt-4 flex flex-col gap-4">
           <!-- Link to tour dates (important) - center for mobile, align left on large screens -->
           <div class="flex justify-center lg:justify-start">
-            <a href={cta.href} class="inline-block text-sm font-semibold text-white rounded px-3 py-2 bg-black bg-opacity-30 hover:bg-opacity-50 w-fit mx-auto lg:mx-0">{cta.label}</a>
+            <a href={cta.href} class="inline-block text-sm font-semibold text-white rounded px-3 py-2 bg-black bg-opacity-30 hover:bg-opacity-50 w-fit mx-auto lg:mx-0 tracking-wide">{cta.label}</a>
           </div>
 
           <!-- signup form with translucent card look -->
-          <div class="w-full max-w-2xl">
+          <div class="w-full max-w-2xl mx-auto lg:mx-0">
             <SignupForm />
           </div>
         </div>

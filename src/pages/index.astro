@@ -23,7 +23,7 @@ import Accordion from '@components/Accordion.astro';
 					</div>
 				) : (
 					<>
-						{ link.title ? <h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold">{link.title}</h2> : null }
+						{ link.title ? <h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold tracking-wide">{link.title}</h2> : null }
 						<ul class="flex flex-col gap-4 p-4">
 							{link.items.map((item) => (
 								<li>

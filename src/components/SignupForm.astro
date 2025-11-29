@@ -8,16 +8,16 @@ const { action = 'https://api.web3forms.com/submit' } = Astro.props as Props;
   <input type="hidden" name="subject" value="New Signup from website" />
   <input type="hidden" name="access_key" value={import.meta.env.PUBLIC_WEB3FORMS_KEY ?? ''} />
   <div class="grid gap-4">
-    <h3>Sign Up to my mailing list :)</h3>
-    <label class="text-sm font-semibold">Name <span class="text-xs text-gray-400">(Required)</span></label>
+    <h3 class="tracking-wide">Sign Up to my mailing list :)</h3>
+    <label class="text-sm font-semibold tracking-wide">Name <span class="text-xs text-gray-400">(Required)</span></label>
     <input type="text" name="name" placeholder="Your name" required class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400" />
-    <label class="text-sm font-semibold">Email Address <span class="text-xs text-gray-400">(Required)</span></label>
+    <label class="text-sm font-semibold tracking-wide">Email Address <span class="text-xs text-gray-400">(Required)</span></label>
     <input type="email" name="email" placeholder="wtva69@email.com" required class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400" />
 
-    <label class="text-sm font-semibold">Message</label>
+    <label class="text-sm font-semibold tracking-wide">Message</label>
     <textarea name="message" placeholder="Leave me a little message (if you want)" rows="3" class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none"></textarea>
 
-    <button type="submit" class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg">Sign Up</button>
+    <button type="submit" class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg tracking-wide">Sign Up</button>
     <p class="text-xs text-gray-400 mt-2">By submitting my info, I consent to receive recurring automated marketing messages. Reply STOP to cancel. MSG will be sent to your number. See Terms and Privacy.</p>
   </div>
     <p id="signup-success" class="hidden text-sm mt-2 text-green-400">Thanks! Check your email for confirmation.</p>
