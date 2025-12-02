@@ -20,8 +20,8 @@ export const tourDates = [
                 date: '27.12',
                 location: 'Basel',
                 venue: 'Info soon',
-                href: '#',
-                hrefLabel: 'Tickets SOON',
+                href: 'https://eventfrog.ch/de/p/party/dubstep-d-n-b/drumnbasel-w-primate-atmos-gino-7395864732605917075.html?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnetZrINxcYe3xyStMfAu-VZhu2UqGP3vZ92ZfclW6iDIp9Gf4b8ZZCoQfsLw_aem_yig1QKRFgZ-rgE3dGUrk8Q&utm_medium=social&utm_source=ig&utm_content=link_in_bio',
+                hrefLabel: 'Tickets',
             },
             {
                 date: '31.12',
