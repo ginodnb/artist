@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
+	title: 'Like It (GINO REMIX) Is Out Now!',
 	location: '',
 	date: '',
 	description: 'It gets like that'
@@ -64,9 +64,14 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
-				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
-				href: 'https://idol-io.ffm.to/london',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/913c54c9-5e18-4e9f-8bcc-67dec20f846a.jpg"
+				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) DOWNLOAD',
+				href: 'https://www.beatport.com/release/like-it-gino-remix/5661678',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/51a571a0-b7c5-4751-987f-95f2a483ef37.jpg"
+			},
+			{
+				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) STREAM',
+				href: 'https://open.spotify.com/track/4pF4ixYV82v4dRn3sLzWC9?si=56404e82360540c6',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/51a571a0-b7c5-4751-987f-95f2a483ef37.jpg"
 			},
 			{
 				title: 'POPUP FULL SET',
@@ -140,6 +145,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 	
+			{
+				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
+				href: 'https://idol-io.ffm.to/london',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/913c54c9-5e18-4e9f-8bcc-67dec20f846a.jpg"
+			},
 			{
 				title: 'VIOLENCE WITH VISLA',
 				href: 'https://found.ee/Panopticon-EP',
