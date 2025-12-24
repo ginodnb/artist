@@ -9,10 +9,10 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'Like It (GINO REMIX) Is Out Now!',
+	title: 'Debut solo critical release is out now',
 	location: '',
 	date: '',
-	description: 'It gets like that'
+	description: 'It gets like that 📡'
 	,emoji: '📡'
 };
 
@@ -64,14 +64,9 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
-				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) DOWNLOAD',
-				href: 'https://www.beatport.com/release/like-it-gino-remix/5661678',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/51a571a0-b7c5-4751-987f-95f2a483ef37.jpg"
-			},
-			{
-				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) STREAM',
-				href: 'https://open.spotify.com/track/4pF4ixYV82v4dRn3sLzWC9?si=56404e82360540c6',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/51a571a0-b7c5-4751-987f-95f2a483ef37.jpg"
+				title: 'Momocho OUT NOW',
+				href: 'https://found.ee/New_Energy_Vol3',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
 			},
 			{
 				title: 'POPUP FULL SET',
@@ -145,6 +140,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 	
+			{
+				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) STREAM',
+				href: 'https://open.spotify.com/track/4pF4ixYV82v4dRn3sLzWC9?si=56404e82360540c6',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/51a571a0-b7c5-4751-987f-95f2a483ef37.jpg"
+			},
 			{
 				title: 'Zinc & Riko Dan - London (GINO REMIX) OUT NOW',
 				href: 'https://idol-io.ffm.to/london',
