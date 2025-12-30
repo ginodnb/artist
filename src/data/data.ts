@@ -191,6 +191,11 @@ export const links = [
         		"image": "https://ugc.production.linktr.ee/22401a46-b9a7-4940-b0d6-a3e5da2a28a5_Untitled-design-15.png?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
+				title: 'Momocho',
+				"href": "/momocho",
+        		"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
+			},
+			{
 				title: 'Jungle Dem / Stupid Little Peckers — OUT NOW',
 				"href": "https://www.crucast.com/itgetslikethat",
         		"image": "https://ugc.production.linktr.ee/89daf90f-7293-4760-a846-2a21d27a3f10_FEED.png?io=true&size=thumbnail-stack-v1_0"
