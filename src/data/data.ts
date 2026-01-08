@@ -64,6 +64,11 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'NEW YEAR SAME ME VOL.3',
+				href: 'https://soundcloud.com/ginodnb/new-year-same-me-vol-3-2026',
+				"image": "https://i1.sndcdn.com/artworks-qgIXj8yxHaLsLZMu-ayobxg-t500x500.png"
+			},
+			{
 				title: 'Momocho OUT NOW',
 				href: 'https://found.ee/New_Energy_Vol3',
 				"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
