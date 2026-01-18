@@ -64,14 +64,14 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'SAFARI QUEST PRESAVE 🐘',
+				href: 'https://higheq.lnk.to/CLAM013',
+				"image": "https://linkstorage.linkfire.com/medialinks/images/45472708-2e83-46c1-ae24-921659b6eb30/artwork-440x440.jpg"
+			},
+			{
 				title: 'NEW YEAR SAME ME VOL.3',
 				href: 'https://soundcloud.com/ginodnb/new-year-same-me-vol-3-2026',
 				"image": "https://i1.sndcdn.com/artworks-qgIXj8yxHaLsLZMu-ayobxg-t500x500.png"
-			},
-			{
-				title: 'Momocho OUT NOW',
-				href: 'https://found.ee/New_Energy_Vol3',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
 			},
 			{
 				title: 'POPUP FULL SET',
@@ -135,6 +135,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 	
+			{
+				title: 'Momocho',
+				href: 'https://found.ee/New_Energy_Vol3',
+				"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
+			},
 			{
 				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) STREAM',
 				href: 'https://open.spotify.com/track/4pF4ixYV82v4dRn3sLzWC9?si=56404e82360540c6',
