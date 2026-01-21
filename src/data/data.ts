@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'Debut solo critical release is out now',
+	title: 'PRESAVE SAFARI QUEST!!!!!🐘',
 	location: '',
 	date: '',
 	description: 'It gets like that 📡'
