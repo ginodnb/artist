@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'PRESAVE SAFARI QUEST!!!!!🐘',
+	title: 'SAFARI QUEST OUT NOW! 🐘',
 	location: '',
 	date: '',
 	description: 'It gets like that 📡'
@@ -64,7 +64,7 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
-				title: 'SAFARI QUEST PRESAVE 🐘',
+				title: 'SAFARI QUEST BUY / STREAM 🐘',
 				href: 'https://higheq.lnk.to/CLAM013',
 				"image": "https://linkstorage.linkfire.com/medialinks/images/45472708-2e83-46c1-ae24-921659b6eb30/artwork-440x440.jpg"
 			},
