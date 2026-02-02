@@ -134,12 +134,17 @@ export const links = [
 	},
 	{
 		title: 'New music',
-		items: [ 	
+		items: [ 
+			{
+				title: 'Safari Quest',
+				"href": "/safariquest",
+        		"image": "https://i1.sndcdn.com/artworks-jUnbNRZvcoPPMi8z-MJLK0Q-t500x500.jpg"
+			},
 			{
 				title: 'Momocho',
-				href: 'https://found.ee/New_Energy_Vol3',
-				"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
-			},
+				"href": "/momocho",
+        		"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
+			},	
 			{
 				title: 'Sofia, Nvrsoft - Like it (GINO REMIX) STREAM',
 				href: 'https://open.spotify.com/track/4pF4ixYV82v4dRn3sLzWC9?si=56404e82360540c6',
@@ -189,11 +194,6 @@ export const links = [
 				title: 'Rush wave / Duhka out now',
 				"href": "https://www.crucast.com/rushwave",
         		"image": "https://ugc.production.linktr.ee/22401a46-b9a7-4940-b0d6-a3e5da2a28a5_Untitled-design-15.png?io=true&size=thumbnail-stack-v1_0"
-			},
-			{
-				title: 'Momocho',
-				"href": "/momocho",
-        		"image": "https://geo-media.beatport.com/image_size/1400x1400/567e168d-6c14-49d0-ac7c-13afc9a2ffbf.jpg"
 			},
 			{
 				title: 'Jungle Dem / Stupid Little Peckers — OUT NOW',
