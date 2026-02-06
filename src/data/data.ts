@@ -64,6 +64,11 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'CLAM RECS M1 BOMBER JACKET',
+				href: 'https://clam-records.myshopify.com/',
+				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
+			},
+			{
 				title: 'SAFARI QUEST BUY / STREAM 🐘',
 				href: 'https://higheq.lnk.to/CLAM013',
 				"image": "https://linkstorage.linkfire.com/medialinks/images/45472708-2e83-46c1-ae24-921659b6eb30/artwork-440x440.jpg"
@@ -83,11 +88,7 @@ export const links = [
 				"href": "https://www.patreon.com/c/ginodnb/posts",
         		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
-						{
-				title: 'MERCH STORE 🧢',
-				href: 'https://clam-records.myshopify.com/',
-				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
-			},
+						
 			
 
 		]
