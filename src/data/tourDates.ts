@@ -34,8 +34,8 @@ export const tourDates = [
                 date: '06.03',
                 location: 'Graz, Austria',
                 venue: 'TBC',
-                href: '#',
-                hrefLabel: 'Tickets Soon',
+                href: 'https://kupfticket.com/en/events/schallware-presents-sequence-one',
+                hrefLabel: 'Tickets',
             },
             
             
