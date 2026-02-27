@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'SAFARI QUEST OUT NOW! 🐘',
+	title: 'CHAMPION COMING FRIDAY 6TH MARCH 🏆',
 	location: '',
 	date: '',
 	description: 'It gets like that 📡'
@@ -64,14 +64,14 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'CHAMPION PRESAVE 🏆',
+				href: 'https://higheq.co.uk/presave/PROP009',
+				"image": "https://higheq.co.uk/release_images/PROP009.jpg"
+			},
+			{
 				title: 'CLAM RECS M1 BOMBER JACKET',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
-			},
-			{
-				title: 'SAFARI QUEST BUY / STREAM 🐘',
-				href: 'https://higheq.lnk.to/CLAM013',
-				"image": "https://linkstorage.linkfire.com/medialinks/images/45472708-2e83-46c1-ae24-921659b6eb30/artwork-440x440.jpg"
 			},
 			{
 				title: 'NEW YEAR SAME ME VOL.3',
