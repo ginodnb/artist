@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'CHAMPION COMING FRIDAY 6TH MARCH 🏆',
+	title: 'CHAMPION OUT NOW!!! 🏆',
 	location: '',
 	date: '',
 	description: 'It gets like that 📡'
@@ -64,7 +64,7 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
-				title: 'CHAMPION PRESAVE 🏆',
+				title: 'CHAMPION OUT NOW 🏆',
 				href: 'https://higheq.co.uk/presave/PROP009',
 				"image": "https://higheq.co.uk/release_images/PROP009.jpg"
 			},
