@@ -3,42 +3,45 @@ export const tourDates = [
         season: 'Q1 26 SZN',
         dates: [
             {
-                date: '13.02',
-                location: 'London',
-                venue: 'Fabric',
-                href: 'https://www.skiddle.com/e/41612690 ',
+                date: '04.04',
+                location: 'Paris',
+                venue: 'La Bassecour',
+                href: 'https://shotgun.live/en/events/frequency-paris',
                 hrefLabel: 'Tickets',
+            },
+        ]
+    },
+    {
+        season: 'NEW ZEALAND TOUR',
+        dates: [
+            {
+                date: '10.04',
+                location: 'Christchurch, NZ',
+                venue: 'Hide',
+                href: '#',
+                hrefLabel: 'Tickets soon',
             },
             {
-                date: '14.02',
-                location: 'Bognor Regis',
-                venue: 'Sheiks Nightclub',
-                href: 'https://www.skiddle.com/whats-on/Bognor-Regis/Sheiks-NIghtclub/TMM-The-Bloody-Valentines-Massacre/41779813/',
-                hrefLabel: 'Tickets',
+                date: '11.04',
+                location: 'Wellington, NZ',
+                venue: 'Meow',
+                href: '#',
+                hrefLabel: 'Tickets soon',
             },
             {
-                date: '20.02',
-                location: 'Leeds',
-                venue: 'Mint Warehouse',
-                href: 'https://www.skiddle.com/whats-on/Leeds/Mint-Warehouse/Euphoria-3rd-Birthday/41354402/',
-                hrefLabel: 'Tickets',
+                date: '17.04',
+                location: 'Auckland, NZ',
+                venue: 'Pointers',
+                href: '#',
+                hrefLabel: 'Tickets soon',
             },
             {
-                date: '28.02',
-                location: 'Manchester',
-                venue: 'Kable Club',
-                href: 'https://www.skiddle.com/whats-on/Manchester/Kable/INDMND-Primate-Benny-L-Gino--Support/41776050/',
-                hrefLabel: 'Tickets',
+                date: '18.04',
+                location: 'Hamilton, NZ',
+                venue: 'Back Bar',
+                href: '#',
+                hrefLabel: 'Tickets soon',
             },
-            {
-                date: '06.03',
-                location: 'Graz, Austria',
-                venue: 'TBC',
-                href: 'https://kupfticket.com/en/events/schallware-presents-sequence-one',
-                hrefLabel: 'Tickets',
-            },
-            
-            
         ]
     }
 ]
