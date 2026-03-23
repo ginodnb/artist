@@ -9,17 +9,17 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'CHAMPION OUT NOW!!! 🏆',
+	title: 'NEW ZEALAND TOUR ON SALE NOW',
 	location: '',
 	date: '',
-	description: 'It gets like that 📡'
+	description: '🇳🇿🇳🇿🇳🇿🇳🇿🇳🇿'
 	,emoji: '📡'
 };
 
 // CTA / actions used across the site (centralized)
 export const ctas = {
     tourDates: {
-        label: 'See Tour Dates 📆',
+        label: 'new zealand tour 🎟️',
         href: '/tour-dates'
     }
 };
@@ -64,6 +64,11 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'PRESAVE FEEL YOUR LOVE',
+				href: 'https://listen.dnballstars.com/Gino-EP',
+				"image": "https://linkstorage.linkfire.com/medialinks/images/fb5eae0c-49a6-4f4a-b268-dc5738cc1520/artwork-440x440.jpg"
+			},
+			{
 				title: 'CHAMPION OUT NOW 🏆',
 				href: 'https://higheq.co.uk/presave/PROP009',
 				"image": "https://higheq.co.uk/release_images/PROP009.jpg"
@@ -72,16 +77,6 @@ export const links = [
 				title: 'CLAM RECS M1 BOMBER JACKET',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
-			},
-			{
-				title: 'NEW YEAR SAME ME VOL.3',
-				href: 'https://soundcloud.com/ginodnb/new-year-same-me-vol-3-2026',
-				"image": "https://i1.sndcdn.com/artworks-qgIXj8yxHaLsLZMu-ayobxg-t500x500.png"
-			},
-			{
-				title: 'POPUP FULL SET',
-				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
-				"image": "https://i.ytimg.com/vi/MInNVoFHhmU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAkKTzfYlAPV7vjCVz8XyCubBunqg"
 			},
 			{
 				title: 'Gino on Patreon 🤌',
@@ -117,19 +112,19 @@ export const links = [
         		"image": "https://i.ytimg.com/vi/We0npmuJ118/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDvTq8uLWUSNMmukLW43nD8NQ3jYQ"
 			},
 			{
-				title: 'Gino radio 1 mix',
-				"href": "https://on.soundcloud.com/b2Bx62GeZKHto19B8",
-        		"image": "https://ugc.production.linktr.ee/1a584b8f-18d3-4291-bd40-db71373d4d43_artworks-ZHFABHBHlCqez7cg-iEfx0Q-t500x500.jpeg?io=true&size=thumbnail-stack-v1_0"
-			},
-			{
-				title: 'Gino feat. Foxx | Kool FM Live From XOYO',
-				"href": "https://www.youtube.com/watch?v=p9pYk-PDBEM&t=2204s",
-        		"image": "https://ugc.production.linktr.ee/dd10c1d5-e5d4-4a49-a5d2-23ab190cbd53_192677d5-2d5d-4fd3-874b-c4e0457bdda2-maxresdefault.jpeg?io=true&size=thumbnail-stack-v1_0"
+				title: 'POPUP FULL SET',
+				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
+				"image": "https://i.ytimg.com/vi/MInNVoFHhmU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAkKTzfYlAPV7vjCVz8XyCubBunqg"
 			},
 			{
 				title: 'My Kool FM show   📻',
 				"href": "https://www.rinse.fm/shows/the-it-gets-like-that-show-with-gino/",
         		"image": "https://image.rinse.fm/_/GINO-36-Gino-Arnone.jpg?w=1200&h=1200"
+			},
+			{
+				title: 'NEW YEAR SAME ME VOL.3',
+				href: 'https://soundcloud.com/ginodnb/new-year-same-me-vol-3-2026',
+				"image": "https://i1.sndcdn.com/artworks-qgIXj8yxHaLsLZMu-ayobxg-t500x500.png"
 			},
 		]
 	},
