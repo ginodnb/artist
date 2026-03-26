@@ -64,7 +64,7 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
-				title: 'PRESAVE FEEL YOUR LOVE',
+				title: 'FEEL YOUR LOVE OUT NOW',
 				href: 'https://listen.dnballstars.com/Gino-EP',
 				"image": "https://linkstorage.linkfire.com/medialinks/images/fb5eae0c-49a6-4f4a-b268-dc5738cc1520/artwork-440x440.jpg"
 			},
