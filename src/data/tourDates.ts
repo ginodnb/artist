@@ -2,13 +2,7 @@ export const tourDates = [
     {
         season: 'Q1 26 SZN',
         dates: [
-            {
-                date: '04.04',
-                location: 'Paris',
-                venue: 'La Bassecour',
-                href: 'https://shotgun.live/en/events/frequency-paris',
-                hrefLabel: 'Tickets',
-            },
+
         ]
     },
     {
