@@ -42,11 +42,11 @@ import { tourDates } from '@data/tourDates.js';
 	</main>
 
 	<script is:inline>
-		const ticketLinks = document.querySelectorAll<HTMLAnchorElement>('[data-tour-ticket-link]');
-		const fbq = window.fbq;
+		const ticketLinks = document.querySelectorAll('[data-tour-ticket-link]');
 
 		ticketLinks.forEach((link) => {
 			link.addEventListener('click', () => {
+				const fbq = window.fbq;
 				if (typeof fbq !== 'function') return;
 
 				fbq('track', 'InitiateCheckout', {
