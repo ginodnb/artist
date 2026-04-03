@@ -24,6 +24,10 @@ import { tourDates } from '@data/tourDates.js';
                                 <a 
   									href={ item.href } 
   									target="_blank" 
+                                    data-tour-ticket-link
+                                    data-event-date={item.date}
+                                    data-event-location={item.location}
+                                    data-event-venue={item.venue}
   									class="text-pink-400 hover:text-white text-right font-bold text-base sm:text-lg md:text-xl"
 									>
 									{ item.hrefLabel }
@@ -36,5 +40,24 @@ import { tourDates } from '@data/tourDates.js';
 			</section>
 		))}
 	</main>
+
+	<script is:inline>
+		const ticketLinks = document.querySelectorAll<HTMLAnchorElement>('[data-tour-ticket-link]');
+		const fbq = window.fbq;
+
+		ticketLinks.forEach((link) => {
+			link.addEventListener('click', () => {
+				if (typeof fbq !== 'function') return;
+
+				fbq('track', 'InitiateCheckout', {
+					content_name: 'Tour Tickets',
+					event_date: link.dataset.eventDate,
+					event_location: link.dataset.eventLocation,
+					event_venue: link.dataset.eventVenue,
+					url: link.href,
+				});
+			});
+		});
+	</script>
 
 </Layout>
