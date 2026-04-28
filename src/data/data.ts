@@ -9,17 +9,17 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'NEW ZEALAND TOUR ON SALE NOW',
+	title: 'SPRING SUMMER 2026',
 	location: '',
 	date: '',
-	description: '🇳🇿🇳🇿🇳🇿🇳🇿🇳🇿'
+	description: 'it gets like that...'
 	,emoji: '📡'
 };
 
 // CTA / actions used across the site (centralized)
 export const ctas = {
     tourDates: {
-        label: 'new zealand tour 🎟️',
+        label: 'tour dates / tickets🎟️',
         href: '/tour-dates'
     }
 };
@@ -64,24 +64,24 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'GINO @ POINTERS, AUCKLAND NZ',
+				href: 'https://youtu.be/rAJqhboGZok',
+				"image": "https://i9.ytimg.com/vi_webp/rAJqhboGZok/mqdefault.webp?v=69f0d59d&sqp=CNi3w88G&rs=AOn4CLBKR3QojyL25NLUiuNoq9Tf_143Vw"
+			},
+			{
 				title: 'FEEL YOUR LOVE OUT NOW',
 				href: 'https://listen.dnballstars.com/Gino-EP',
 				"image": "https://linkstorage.linkfire.com/medialinks/images/fb5eae0c-49a6-4f4a-b268-dc5738cc1520/artwork-440x440.jpg"
 			},
 			{
-				title: 'CHAMPION OUT NOW 🏆',
-				href: 'https://higheq.co.uk/presave/PROP009',
-				"image": "https://higheq.co.uk/release_images/PROP009.jpg"
+				title: 'Gino on Patreon 🤌',
+				"href": "https://www.patreon.com/c/ginodnb/posts",
+        		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
 				title: 'CLAM RECS M1 BOMBER JACKET',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
-			},
-			{
-				title: 'Gino on Patreon 🤌',
-				"href": "https://www.patreon.com/c/ginodnb/posts",
-        		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
 						
 			
@@ -131,6 +131,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 
+			{
+				title: 'CHAMPION OUT NOW 🏆',
+				href: 'https://higheq.co.uk/presave/PROP009',
+				"image": "https://higheq.co.uk/release_images/PROP009.jpg"
+			},
 			{
 				title: 'Safari Quest',
 				"href": "/safariquest",

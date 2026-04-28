@@ -1,6 +1,6 @@
 export const tourDates = [
     {
-        season: 'Q1 26 SZN',
+        season: 'MAY / JUNE SZN',
         dates: [
 
         ]
@@ -9,33 +9,55 @@ export const tourDates = [
         season: 'NEW ZEALAND TOUR',
         dates: [
             {
-                date: '10.04',
-                location: 'Christchurch, NZ',
-                venue: 'Hide',
-                href: 'https://juiceboxent.flicket.co.nz/events/960ab9d7-07be-4c2c-97cf-59ed47677ce0/reservation',
+                date: '02.05',
+                location: 'Mallorca, Spain',
+                venue: 'Dnb allstars',
+                href: 'https://www.dnballstars.com/whats-on/dnb-allstars-mallorca',
                 hrefLabel: 'Tickets',
             },
             {
-                date: '11.04',
-                location: 'Wellington, NZ',
-                venue: 'Meow',
-                href: 'https://meow.flicket.co.nz/events/8ad41cbe-f875-4e8b-a2c8-21a3cda03298/reservation',
+                date: '22.05',
+                location: 'Glasgow',
+                venue: 'Pray to Good',
+                href: 'https://ra.co/events/2393807',
                 hrefLabel: 'Tickets',
             },
             {
-                date: '17.04',
-                location: 'Auckland, NZ',
-                venue: 'Pointers',
-                href: 'https://juiceboxent.flicket.co.nz/events/33b4c5e4-a156-4f67-b509-754d7cdef5a6/reservation',
+                date: '23.05',
+                location: 'Vienna, Austria',
+                venue: 'Arena',
+                href: 'https://www.collapse-recordings.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn7mMSoCCiMq3LuzZydRK2dU0X5QqsGE76eH__G5cJ-FYX5iSI8VPJz5ZphXo_aem_dZ_cYsGxs62GBXKJCN_GCA',
                 hrefLabel: 'Tickets',
             },
             {
-                date: '18.04',
-                location: 'Hamilton, NZ',
-                venue: 'Back Bar',
-                href: 'https://juiceboxent.flicket.co.nz/events/c68031b2-1c24-497c-9a3e-842bf292cd7a/reservation',
+                date: '30.05',
+                location: 'Bristol, UK',
+                venue: '??????????',
+                href: '#',
+                hrefLabel: 'Tickets Soon',
+            },
+            {
+                date: '05.06',
+                location: 'Bologna, IT',
+                venue: 'TBA',
+                href: '#',
+                hrefLabel: 'Tickets Soon',
+            },
+            {
+                date: '14.06',
+                location: 'London',
+                venue: 'Dnb Allstars',
+                href: 'https://www.skiddle.com/whats-on/Ilford/Eutopia-Warehouse/DnB-Allstars---Summer-In-The-City---London/41966074/',
                 hrefLabel: 'Tickets',
             },
+            {
+                date: '19.06',
+                location: 'Milton Keynes, UK',
+                venue: 'Unit 9',
+                href: 'https://www.skiddle.com/whats-on/Milton-Keynes/Unit-Nine/Turno--Friends---Milton-Keynes/42145958/',
+                hrefLabel: 'Tickets',
+            },
+
         ]
     }
 ]
