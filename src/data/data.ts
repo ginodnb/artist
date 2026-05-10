@@ -64,19 +64,19 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'Gino on Patreon 🤌',
+				"href": "https://www.patreon.com/c/ginodnb/posts",
+        		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
+			},
+			{
 				title: 'GINO @ POINTERS, AUCKLAND NZ',
 				href: 'https://youtu.be/rAJqhboGZok',
-				"image": "https://i9.ytimg.com/vi_webp/rAJqhboGZok/mqdefault.webp?v=69f0d59d&sqp=CNi3w88G&rs=AOn4CLBKR3QojyL25NLUiuNoq9Tf_143Vw"
+				"image": "https://i1.sndcdn.com/artworks-mBN9LCDyokAYNdnB-8K6muw-t500x500.png"
 			},
 			{
 				title: 'FEEL YOUR LOVE OUT NOW',
 				href: 'https://listen.dnballstars.com/Gino-EP',
 				"image": "https://linkstorage.linkfire.com/medialinks/images/fb5eae0c-49a6-4f4a-b268-dc5738cc1520/artwork-440x440.jpg"
-			},
-			{
-				title: 'Gino on Patreon 🤌',
-				"href": "https://www.patreon.com/c/ginodnb/posts",
-        		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
 				title: 'CLAM RECS M1 BOMBER JACKET',
@@ -110,11 +110,6 @@ export const links = [
 				title: 'Subzero vs Gino - Cruclash',
 				"href": "https://youtu.be/We0npmuJ118?si=XOz8nectrsjrgQCA",
         		"image": "https://i.ytimg.com/vi/We0npmuJ118/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDvTq8uLWUSNMmukLW43nD8NQ3jYQ"
-			},
-			{
-				title: 'POPUP FULL SET',
-				href: 'https://www.youtube.com/watch?v=MInNVoFHhmU',
-				"image": "https://i.ytimg.com/vi/MInNVoFHhmU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAkKTzfYlAPV7vjCVz8XyCubBunqg"
 			},
 			{
 				title: 'My Kool FM show   📻',
