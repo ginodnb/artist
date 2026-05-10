@@ -32,9 +32,9 @@ export const tourDates = [
             {
                 date: '30.05',
                 location: 'Bristol, UK',
-                venue: '??????????',
-                href: '#',
-                hrefLabel: 'Tickets Soon',
+                venue: 'lost horizon',
+                href: 'https://www.skiddle.com/whats-on/Bristol/Lost-Horizon-HQ/Latte-Presents-Flow-State/42158243/',
+                hrefLabel: 'Tickets',
             },
             {
                 date: '05.06',
