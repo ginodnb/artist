@@ -40,8 +40,8 @@ export const tourDates = [
                 date: '05.06',
                 location: 'Bologna, IT',
                 venue: 'TBA',
-                href: '#',
-                hrefLabel: 'Tickets Soon',
+                href: 'https://xceed.me/en/bologna/event/much-much-bass-presents-gino/231235/channel/kinder-srl?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGn_aGVKHE3SUAKaVDxGXNWYzlQtdBbSU-E0erakjU-RlLZD2C7PsH3khKEn4A_aem_5HxvVevKzbR4jaaE_DcPMg&utm_id=97760_v0_s00_e0_tv3',
+                hrefLabel: 'Tickets',
             },
             {
                 date: '14.06',
