@@ -16,6 +16,12 @@ import SignupForm from '@components/SignupForm.astro';
 			<!-- Hero Event section added before the lists -->
 			<HeroEvent name={profile.name} bio={profile.bio} profileImage={profile.image} profileImage320={profile.image320} profileImage800={profile.image800} title={event.title} location={event.location} emoji={event.emoji} date={event.date} description={event.description} cta={ctas.tourDates} />
 
+		<section class="w-full max-w-[640px] mx-auto mt-4 px-4">
+			<div class="rounded-xl bg-black bg-opacity-25 p-2 sm:p-4">
+				<SignupForm />
+			</div>
+		</section>
+
 		{links.map((link) => (
 			<section class="w-full max-w-[640px] mx-auto mt-4 rounded-lg">
 				{link.title === 'New music' ? (
@@ -36,12 +42,6 @@ import SignupForm from '@components/SignupForm.astro';
 				)}
 			</section>
 		))}
-
-		<section class="w-full max-w-[640px] mx-auto mt-8 px-4">
-			<div class="rounded-xl bg-black bg-opacity-25 p-2 sm:p-4">
-				<SignupForm />
-			</div>
-		</section>
 	</main>
 
 </Layout>
