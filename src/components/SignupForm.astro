@@ -3,8 +3,6 @@ interface Props {
   action?: string;
 }
 ---
-const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtestgWcQpULvzG3cpwIOYJW7e8svxhPjvf_iD_lO1aid0HzE0c8m4_zlRF/exec';
----
 
 <form method="POST" id="signup-form" class="w-full rounded-xl bg-gray-800 bg-opacity-70 p-6 shadow-lg text-white">
   <div class="grid gap-4">
@@ -40,10 +38,18 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtest
       class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none"
     ></textarea>
 
-    <!-- Hidden honeypot field -->
-    <input type="text" name="company" class="hidden" tabindex="-1" autocomplete="off" />
+    <input
+      type="text"
+      name="company"
+      class="hidden"
+      tabindex="-1"
+      autocomplete="off"
+    />
 
-    <button type="submit" class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg tracking-wide">
+    <button
+      type="submit"
+      class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg tracking-wide"
+    >
       Sign Up
     </button>
 
@@ -56,21 +62,24 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtest
   </div>
 
   <script type="module">
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtestgWcQpULvzG3cpwIOYJW7e8svxhPjvf_iD_lO1aid0HzE0c8m4_zlRF/exec';
+
     const form = document.getElementById('signup-form');
     const success = document.getElementById('signup-success');
     const error = document.getElementById('signup-error');
-    const submitBtn = form.querySelector('button[type="submit"]');
-    const originalText = submitBtn.textContent;
+    const submitBtn = form?.querySelector('button[type="submit"]');
+    const originalText = submitBtn?.textContent ?? 'Sign Up';
 
-    const GOOGLE_SCRIPT_URL = 'PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE';
-
-    form.addEventListener('submit', async (e) => {
+    form?.addEventListener('submit', async (e) => {
       e.preventDefault();
 
       success?.classList.add('hidden');
       error?.classList.add('hidden');
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Sending...';
+
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+      }
 
       const formData = new FormData(form);
 
@@ -110,8 +119,10 @@ const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtest
         console.error('Signup error:', err);
         error?.classList.remove('hidden');
       } finally {
-        submitBtn.disabled = false;
-        submitBtn.textContent = originalText;
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        }
       }
     });
   </script>
