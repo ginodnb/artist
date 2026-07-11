@@ -56,6 +56,9 @@ interface Props {
     <p id="signup-success" class="hidden text-sm mt-2 text-green-400">
       Thanks! Your signup was received.
     </p>
+    <p id="signup-duplicate" class="hidden text-sm mt-2 text-yellow-400">
+      This email address is already signed up!
+    </p>
     <p id="signup-error" class="hidden text-sm mt-2 text-red-400">
       There was an error with the signup. Please try again.
     </p>
@@ -63,18 +66,32 @@ interface Props {
 
   <script type="module">
     const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtestgWcQpULvzG3cpwIOYJW7e8svxhPjvf_iD_lO1aid0HzE0c8m4_zlRF/exec';
+    const DEFAULT_ERROR_MESSAGE = 'There was an error with the signup. Please try again.';
 
     const form = document.getElementById('signup-form');
     const success = document.getElementById('signup-success');
+    const duplicate = document.getElementById('signup-duplicate');
     const error = document.getElementById('signup-error');
     const submitBtn = form?.querySelector('button[type="submit"]');
     const originalText = submitBtn?.textContent ?? 'Sign Up';
 
+    const resetMessages = () => {
+      success?.classList.add('hidden');
+      duplicate?.classList.add('hidden');
+      error?.classList.add('hidden');
+      if (error) error.textContent = DEFAULT_ERROR_MESSAGE;
+    };
+
+    const showErrorMessage = (message) => {
+      if (error) {
+        error.textContent = message;
+        error.classList.remove('hidden');
+      }
+    };
+
     form?.addEventListener('submit', async (e) => {
       e.preventDefault();
-
-      success?.classList.add('hidden');
-      error?.classList.add('hidden');
+      resetMessages();
 
       if (submitBtn) {
         submitBtn.disabled = true;
@@ -109,15 +126,19 @@ interface Props {
         }
 
         if (json.success) {
-          success?.classList.remove('hidden');
-          form.reset();
+          if (json.duplicate) {
+            duplicate?.classList.remove('hidden');
+          } else {
+            success?.classList.remove('hidden');
+            form.reset();
+          }
         } else {
           console.error('Signup failed:', json);
-          error?.classList.remove('hidden');
+          showErrorMessage(json?.error || DEFAULT_ERROR_MESSAGE);
         }
       } catch (err) {
         console.error('Signup error:', err);
-        error?.classList.remove('hidden');
+        showErrorMessage(DEFAULT_ERROR_MESSAGE);
       } finally {
         if (submitBtn) {
           submitBtn.disabled = false;
