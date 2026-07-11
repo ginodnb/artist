@@ -2,100 +2,117 @@
 interface Props {
   action?: string;
 }
-const { action = 'https://api.web3forms.com/submit' } = Astro.props as Props;
 ---
-<form method="POST" id="signup-form" action={action} class="w-full rounded-xl bg-gray-800 bg-opacity-70 p-6 shadow-lg text-white">
-  <input type="hidden" name="subject" value="New Signup from website" />
-  <input type="hidden" name="access_key" value={import.meta.env.PUBLIC_WEB3FORMS_KEY ?? ''} />
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwJGyJ5pFtestgWcQpULvzG3cpwIOYJW7e8svxhPjvf_iD_lO1aid0HzE0c8m4_zlRF/exec';
+---
+
+<form method="POST" id="signup-form" class="w-full rounded-xl bg-gray-800 bg-opacity-70 p-6 shadow-lg text-white">
   <div class="grid gap-4">
     <h3 class="tracking-wide">Sign Up to my mailing list :)</h3>
-    <label class="text-sm font-semibold tracking-wide">Name <span class="text-xs text-gray-400">(Required)</span></label>
-    <input type="text" name="name" placeholder="Your name" required class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400" />
-    <label class="text-sm font-semibold tracking-wide">Email Address <span class="text-xs text-gray-400">(Required)</span></label>
-    <input type="email" name="email" placeholder="wtva69@email.com" required class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400" />
+
+    <label class="text-sm font-semibold tracking-wide">
+      Name <span class="text-xs text-gray-400">(Required)</span>
+    </label>
+    <input
+      type="text"
+      name="name"
+      placeholder="Your name"
+      required
+      class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400"
+    />
+
+    <label class="text-sm font-semibold tracking-wide">
+      Email Address <span class="text-xs text-gray-400">(Required)</span>
+    </label>
+    <input
+      type="email"
+      name="email"
+      placeholder="wtva69@email.com"
+      required
+      class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder:text-gray-400"
+    />
 
     <label class="text-sm font-semibold tracking-wide">Message</label>
-    <textarea name="message" placeholder="Leave me a little message (if you want)" rows="3" class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none"></textarea>
+    <textarea
+      name="message"
+      placeholder="Leave me a little message (if you want)"
+      rows="3"
+      class="w-full p-3 rounded-md bg-gray-700 bg-opacity-50 focus:outline-none"
+    ></textarea>
 
-    <button type="submit" class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg tracking-wide">Sign Up</button>
-    <p class="text-xs text-gray-400 mt-2"></p>
-  </div>
-    <p id="signup-success" class="hidden text-sm mt-2 text-green-400">Thanks! Check your email for confirmation.</p>
-    <p id="signup-error" class="hidden text-sm mt-2 text-red-400">There was an error with the signup. Please try again.</p>
+    <!-- Hidden honeypot field -->
+    <input type="text" name="company" class="hidden" tabindex="-1" autocomplete="off" />
+
+    <button type="submit" class="mt-2 w-full bg-gray-600 hover:bg-gray-500 text-white font-semibold p-3 rounded-lg tracking-wide">
+      Sign Up
+    </button>
+
+    <p id="signup-success" class="hidden text-sm mt-2 text-green-400">
+      Thanks! Your signup was received.
+    </p>
+    <p id="signup-error" class="hidden text-sm mt-2 text-red-400">
+      There was an error with the signup. Please try again.
+    </p>
   </div>
 
   <script type="module">
-  const form = document.getElementById('signup-form');
-  const success = document.getElementById('signup-success');
-  const error = document.getElementById('signup-error');
-  const submitBtn = form.querySelector('button[type="submit"]');
-  const originalText = submitBtn.textContent;
+    const form = document.getElementById('signup-form');
+    const success = document.getElementById('signup-success');
+    const error = document.getElementById('signup-error');
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.textContent;
 
-  const FALLBACK_WEB3FORMS = 'https://api.web3forms.com/submit';
-  const PUBLIC_KEY = import.meta.env.PUBLIC_WEB3FORMS_KEY ?? '';
+    const GOOGLE_SCRIPT_URL = 'PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE';
 
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    success?.classList.add('hidden');
-    error?.classList.add('hidden');
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
 
-    const data = new FormData(form);
+      success?.classList.add('hidden');
+      error?.classList.add('hidden');
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
 
-    try {
-      console.log('Signup form: action=', form.action);
-      let res = null;
+      const formData = new FormData(form);
 
-      // Try serverless endpoint first
+      const payload = {
+        name: formData.get('name')?.toString() ?? '',
+        email: formData.get('email')?.toString() ?? '',
+        message: formData.get('message')?.toString() ?? '',
+        company: formData.get('company')?.toString() ?? ''
+      };
+
       try {
-        console.log('Attempting serverless POST to', form.action);
-        res = await fetch(form.action, { method: 'POST', body: data });
-        console.log('Serverless response', res.status);
-      } catch (err) {
-        console.warn('Serverless POST failed (possible 404 or CORS):', err);
-        res = null;
-      }
+        const res = await fetch(GOOGLE_SCRIPT_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'text/plain;charset=utf-8'
+          },
+          body: JSON.stringify(payload)
+        });
 
-      // If no response or 404, and we have a PUBLIC KEY fallback, try web3forms
-      if ((res === null || res.status === 404) && PUBLIC_KEY) {
-        console.log('Falling back to web3forms via PUBLIC key (client-side). Not recommended for production where serverless is supported.');
-        // Set name if first/last exist
-        const firstName = data.get('firstName')?.toString() ?? '';
-        const lastName = data.get('lastName')?.toString() ?? '';
-        if (firstName || lastName) {
-          const combined = `${firstName}${firstName && lastName ? ' ' : ''}${lastName}`.trim();
-          data.set('name', combined);
+        const text = await res.text();
+        let json = {};
+
+        try {
+          json = JSON.parse(text);
+        } catch {
+          json = { success: false };
         }
-        data.set('access_key', PUBLIC_KEY);
-        res = await fetch(FALLBACK_WEB3FORMS, { method: 'POST', body: data });
-      }
 
-      if (!res) throw new Error('No response from server (and no fallback configured)');
-      console.log('Final response status', res.status);
-      if (res.status === 404) {
-        console.error('Signup route not found (404).');
+        if (json.success) {
+          success?.classList.remove('hidden');
+          form.reset();
+        } else {
+          console.error('Signup failed:', json);
+          error?.classList.remove('hidden');
+        }
+      } catch (err) {
+        console.error('Signup error:', err);
         error?.classList.remove('hidden');
-        return;
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
       }
-
-      const json = await res.json();
-      console.log('Response JSON:', json);
-      if (res.ok) {
-        success?.classList.remove('hidden');
-        form.reset();
-      } else {
-        console.error('Signup failed', json);
-        error?.classList.remove('hidden');
-      }
-    } catch (err) {
-      console.error('Signup error', err);
-      error?.classList.remove('hidden');
-    } finally {
-      submitBtn.textContent = originalText;
-      submitBtn.disabled = false;
-    }
-  });
-
+    });
   </script>
 </form>
