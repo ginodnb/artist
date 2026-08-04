@@ -16,12 +16,6 @@ import SignupForm from '@components/SignupForm.astro';
 			<!-- Hero Event section added before the lists -->
 			<HeroEvent name={profile.name} bio={profile.bio} profileImage={profile.image} profileImage320={profile.image320} profileImage800={profile.image800} title={event.title} location={event.location} emoji={event.emoji} date={event.date} description={event.description} cta={ctas.tourDates} />
 
-		<section class="w-full max-w-[640px] mx-auto mt-4 px-4">
-			<div class="rounded-xl bg-black bg-opacity-25 p-2 sm:p-4">
-				<SignupForm />
-			</div>
-		</section>
-
 		{links.map((link) => (
 			<section class="w-full max-w-[640px] mx-auto mt-4 rounded-lg">
 				{link.title === 'New music' ? (
@@ -31,15 +25,8 @@ import SignupForm from '@components/SignupForm.astro';
 				) : (
 					<>
 						{ link.title ? <h2 class="text-3xl p-4 pb-0 mt-2 text-center font-bold tracking-wide">{link.title}</h2> : null }
-						<ul class="flex flex-col gap-4 p-4">
-							{link.items.map((item) => (
-								<li>
-									<LinkComponent href={item.href} image={item.image} title={item.title} />
-								</li>
-							))}
-						</ul>
 						{link.title === 'NEW STUFF 🔗' ? (
-							<div class="px-4 pb-4">
+							<div class="px-4 pb-2">
 								<a
 									href="/cambridge"
 									target="_blank"
@@ -48,14 +35,27 @@ import SignupForm from '@components/SignupForm.astro';
 									<span class="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg bg-yellow-300/20 text-2xl font-black text-yellow-300">
 										🎟️
 									</span>
-									<h3 class="text-xl tracking-wide overflow-wrap-anywhere">Cambridge</h3>
+									<h3 class="text-xl tracking-wide overflow-wrap-anywhere">Cambridge Party 29.08.26</h3>
 								</a>
 							</div>
 						) : null}
+						<ul class="flex flex-col gap-4 p-4">
+							{link.items.map((item) => (
+								<li>
+									<LinkComponent href={item.href} image={item.image} title={item.title} />
+								</li>
+							))}
+						</ul>
 					</>
 				)}
 			</section>
 		))}
+
+		<section class="w-full max-w-[640px] mx-auto mt-4 px-4">
+			<div class="rounded-xl bg-black bg-opacity-25 p-2 sm:p-4">
+				<SignupForm />
+			</div>
+		</section>
 	</main>
 
 </Layout>

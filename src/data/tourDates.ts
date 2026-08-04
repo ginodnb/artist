@@ -6,7 +6,7 @@ export const tourDates = [
         ]
     },
     {
-        season: 'NEW ZEALAND TOUR',
+        season: '',
         dates: [
 
             {
@@ -23,6 +23,13 @@ export const tourDates = [
                 href: '#',
                 hrefLabel: 'Tickets available',
             },
+                        {
+                date: '29.08',
+                location: 'Cambridge',
+                venue: 'Kiki',
+                href: 'https://www.skiddle.com/whats-on/Cambridge/Kiki-Cambridge/Gino-Presents-The-Ghost-EP-Release-Party/42623601/',
+                hrefLabel: 'Tickets available',
+            },
             {
                 date: '19.09',
                 location: 'Worcester',
@@ -33,6 +40,13 @@ export const tourDates = [
             {
                 date: '25.09',
                 location: 'Birmingham',
+                venue: 'TBA',
+                href: '#',
+                hrefLabel: 'Tickets soon',
+            },
+            {
+                date: '03.10',
+                location: 'Bournemouth',
                 venue: 'TBA',
                 href: '#',
                 hrefLabel: 'Tickets soon',
