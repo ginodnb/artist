@@ -38,6 +38,20 @@ import SignupForm from '@components/SignupForm.astro';
 								</li>
 							))}
 						</ul>
+						{link.title === 'NEW STUFF 🔗' ? (
+							<div class="px-4 pb-4">
+								<a
+									href="/cambridge"
+									target="_blank"
+									class="text-white transition-transform dark:bg-black300 dark:bg-opacity-6 duration-200 ease-in-out hover:scale-[1.05] origin-center flex flex-row items-center gap-4 p-4 rounded-lg bg-gray-900 shadow-md min-h-[88px]"
+								>
+									<span class="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-lg bg-yellow-300/20 text-2xl font-black text-yellow-300">
+										🎟️
+									</span>
+									<h3 class="text-xl tracking-wide overflow-wrap-anywhere">Cambridge</h3>
+								</a>
+							</div>
+						) : null}
 					</>
 				)}
 			</section>
