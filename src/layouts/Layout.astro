@@ -10,13 +10,14 @@ import '@styles/theme/default/Global.css';
 
 interface Props { 
 	className? :string;
+	forceDark?: boolean;
 }
 
-const { className } = Astro.props as Props;
+const { className, forceDark = false } = Astro.props as Props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class={forceDark ? 'dark' : undefined}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta
@@ -83,7 +84,7 @@ const { className } = Astro.props as Props;
 		</script>
 
 	</head>
-<body class={`font-sans text-sm sm:text-base ${className ? className : ''}`}>
+<body class={`font-sans text-sm sm:text-base ${className ? className : ''}`} style={forceDark ? 'color-scheme: dark;' : undefined}>
   <div class="relative min-h-screen min-h-dvh overflow-hidden bg-gray-100 dark:bg-gray-950">
 
     <!-- 🔲 Grid Layer -->
