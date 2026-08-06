@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'SPRING SUMMER 2026',
+	title: 'CAMBRIDGE PARTY 29th AUG TICKETS LIVE NOW',
 	location: '',
 	date: '',
 	description: 'it gets like that...'
@@ -63,29 +63,21 @@ export const links = [
 	{
 		title: 'NEW STUFF 🔗',
 		items: [
+						{
+				title: 'REWIND /W TURNO & NERSHA PRESAVE',
+				href: 'https://www.crucast.com/turnoginonersha',
+				"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/614748dc-27c9-4019-ba46-fd57aaeee9b4/Turno%2C+Gino+%26+Nersha+-+Rewind.jpg?format=2500w"
+			},
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
         		"image": "https://ugc.production.linktr.ee/b8739e37-7354-46ec-a546-f78ed7217828_Screenshot-2024-11-15-at-14.33.55.png?io=true&size=thumbnail-stack-v1_0"
 			},
 			{
-				title: 'GINO @ POINTERS, AUCKLAND NZ',
-				href: 'https://youtu.be/rAJqhboGZok',
-				"image": "https://i1.sndcdn.com/artworks-mBN9LCDyokAYNdnB-8K6muw-t500x500.png"
-			},
-			{
-				title: 'FEEL YOUR LOVE OUT NOW',
-				href: 'https://listen.dnballstars.com/Gino-EP',
-				"image": "https://linkstorage.linkfire.com/medialinks/images/fb5eae0c-49a6-4f4a-b268-dc5738cc1520/artwork-440x440.jpg"
-			},
-			{
-				title: 'CLAM RECS M1 BOMBER JACKET',
+				title: 'STORE',
 				href: 'https://clam-records.myshopify.com/',
 				"image": "https://clam-records.myshopify.com/cdn/shop/files/latte_toxi_fatto_rmx-3.png?v=1749824542&width=823l"
 			},
-						
-			
-
 		]
 	},
 	// {
@@ -101,15 +93,15 @@ export const links = [
 	{
 		title: 'Live sets / mixes',
 		items: [
-			{
-				title: 'RAMPAGE FESTIVAL B2B LATTE & TOXINATE',
-				"href": "https://youtu.be/MOV_HNQ4EN4?si=KkfjFEZhuHe_QAZD",
-				"image": "https://i.ytimg.com/vi/MOV_HNQ4EN4/hqdefault.jpg?v=688605fb"
+						{
+				title: 'GINO @ POINTERS, AUCKLAND NZ',
+				href: 'https://youtu.be/rAJqhboGZok',
+				"image": "https://i1.sndcdn.com/artworks-mBN9LCDyokAYNdnB-8K6muw-t500x500.png"
 			},
 			{
-				title: 'Subzero vs Gino - Cruclash',
-				"href": "https://youtu.be/We0npmuJ118?si=XOz8nectrsjrgQCA",
-        		"image": "https://i.ytimg.com/vi/We0npmuJ118/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDvTq8uLWUSNMmukLW43nD8NQ3jYQ"
+				title: 'CRUCLASH W LATTE',
+				"href": "https://www.youtube.com/watch?v=mWiifDZlYbw&t=2826s",
+				"image": "https://i.ytimg.com/vi/mWiifDZlYbw/maxresdefault.jpg"
 			},
 			{
 				title: 'My Kool FM show   📻',
@@ -126,6 +118,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 
+			{
+				title: 'FEEL YOUR LOVE OUT NOW',
+				href: 'https://listen.dnballstars.com/Gino-EP',
+				"image": "https://linkstorage.linkfire.com/medialinks/images/fb5eae0c-49a6-4f4a-b268-dc5738cc1520/artwork-440x440.jpg"
+			},
 			{
 				title: 'CHAMPION OUT NOW 🏆',
 				href: 'https://higheq.co.uk/presave/PROP009',
