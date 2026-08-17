@@ -64,7 +64,7 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 						{
-				title: 'REWIND /W TURNO & NERSHA PRESAVE',
+				title: 'REWIND /W TURNO & NERSHA OUT NOW',
 				href: 'https://www.crucast.com/turnoginonersha',
 				"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/614748dc-27c9-4019-ba46-fd57aaeee9b4/Turno%2C+Gino+%26+Nersha+-+Rewind.jpg?format=2500w"
 			},
