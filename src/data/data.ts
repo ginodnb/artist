@@ -40,7 +40,7 @@ export const heroLinks = [
 	{
 		title: 'Instagram',
 		href: 'https://instagram.com/ginodnb',
-		image: 'https://pnglove.com/data/img/348_HvMf.jpg'
+		image: 'https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM'
 	},
 	{
 		title: 'Youtube',
@@ -63,6 +63,11 @@ export const links = [
 	{
 		title: 'NEW STUFF 🔗',
 		items: [
+			{
+				title: 'PRESAVE THE GHOST EP',
+				"href": "https://higheq.co.uk/presave/CLAM015",
+        		"image": "https://higheq.co.uk/release_images/CLAM015.jpg"
+			},
 						{
 				title: 'REWIND /W TURNO & NERSHA OUT NOW',
 				href: 'https://www.crucast.com/turnoginonersha',
