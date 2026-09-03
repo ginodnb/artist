@@ -9,7 +9,7 @@ export const profile = {
 
 // Centralized event data for hero
 export const event = {
-	title: 'CAMBRIDGE PARTY 29th AUG TICKETS LIVE NOW',
+	title: 'SEPT / OCTOBER DATES UP NOW',
 	location: '',
 	date: '',
 	description: 'it gets like that...'
@@ -64,7 +64,7 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
-				title: 'PRESAVE THE GHOST EP',
+				title: 'THE GHOST EP 💿',
 				"href": "https://higheq.co.uk/presave/CLAM015",
         		"image": "https://higheq.co.uk/release_images/CLAM015.jpg"
 			},
