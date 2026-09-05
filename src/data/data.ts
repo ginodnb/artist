@@ -68,11 +68,6 @@ export const links = [
 				"href": "https://higheq.co.uk/presave/CLAM015",
         		"image": "https://higheq.co.uk/release_images/CLAM015.jpg"
 			},
-						{
-				title: 'REWIND /W TURNO & NERSHA OUT NOW',
-				href: 'https://www.crucast.com/turnoginonersha',
-				"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/614748dc-27c9-4019-ba46-fd57aaeee9b4/Turno%2C+Gino+%26+Nersha+-+Rewind.jpg?format=2500w"
-			},
 			{
 				title: 'Gino on Patreon 🤌',
 				"href": "https://www.patreon.com/c/ginodnb/posts",
@@ -123,6 +118,11 @@ export const links = [
 	{
 		title: 'New music',
 		items: [ 
+			{
+				title: 'REWIND /W TURNO & NERSHA OUT NOW',
+				href: 'https://www.crucast.com/turnoginonersha',
+				"image": "https://images.squarespace-cdn.com/content/v1/56a216720e4c11469b0ae88a/614748dc-27c9-4019-ba46-fd57aaeee9b4/Turno%2C+Gino+%26+Nersha+-+Rewind.jpg?format=2500w"
+			},
 			{
 				title: 'FEEL YOUR LOVE OUT NOW',
 				href: 'https://listen.dnballstars.com/Gino-EP',
