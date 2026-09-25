@@ -1,6 +1,6 @@
 export const tourDates = [
     {
-        season: 'MAY / JUNE SZN',
+        season: 'AUTUMN SZN 🎃',
         dates: [
 
         ]
