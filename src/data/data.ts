@@ -64,6 +64,16 @@ export const links = [
 		title: 'NEW STUFF 🔗',
 		items: [
 			{
+				title: 'MODESTEP - FEED (GINO REMIX) - STREAM',
+				"href": "https://open.spotify.com/album/7Hazyej3idIPpIzGAz0fvz?si=BbJHF1A4SsCNjZVUFpHYqg",
+        		"image": "https://geo-media.beatport.com/image_size/250x250/315d9d83-e86b-43e4-8f24-765fd0befcff.jpg"
+			},
+			{
+				title: 'MODESTEP - FEED (GINO REMIX) - DOWNLOAD',
+				"href": "https://www.beatport.com/track/feed/30548605",
+        		"image": "https://geo-media.beatport.com/image_size/250x250/315d9d83-e86b-43e4-8f24-765fd0befcff.jpg"
+			},
+			{
 				title: 'THE GHOST EP 💿',
 				"href": "https://higheq.co.uk/presave/CLAM015",
         		"image": "https://higheq.co.uk/release_images/CLAM015.jpg"

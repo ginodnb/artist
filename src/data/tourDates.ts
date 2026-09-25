@@ -8,28 +8,6 @@ export const tourDates = [
     {
         season: '',
         dates: [
-
-            {
-                date: '01.09',
-                location: 'Let it roll, ',
-                venue: 'Lake Most',
-                href: '#',
-                hrefLabel: 'Tickets available',
-            },
-            {
-                date: '07.09',
-                location: 'Peterborough',
-                venue: 'The Queens Head',
-                href: '#',
-                hrefLabel: 'Tickets available',
-            },
-                        {
-                date: '29.08',
-                location: 'Cambridge',
-                venue: 'Kiki',
-                href: 'https://www.skiddle.com/whats-on/Cambridge/Kiki-Cambridge/Gino-Presents-The-Ghost-EP-Release-Party/42623601/',
-                hrefLabel: 'Tickets available',
-            },
             {
                 date: '19.09',
                 location: 'Worcester',
@@ -38,18 +16,25 @@ export const tourDates = [
                 hrefLabel: 'Tickets available',
             },
             {
-                date: '25.09',
-                location: 'Birmingham',
-                venue: 'TBA',
-                href: '#',
-                hrefLabel: 'Tickets soon',
-            },
-            {
                 date: '03.10',
                 location: 'Bournemouth',
-                venue: 'TBA',
-                href: '#',
-                hrefLabel: 'Tickets soon',
+                venue: 'The Old Fire Station',
+                href: 'https://www.fatsoma.com/e/isvx8cv4/a-m-c-presents-grassroots-energy-bournemouth',
+                hrefLabel: 'Tickets',
+            },
+            {
+                date: '23.10',
+                location: 'London',
+                venue: 'Fabric',
+                href: 'https://www.fabriclondon.com/event/fabriclive-x-critical-sound',
+                hrefLabel: 'Tickets',
+            },
+            {
+                date: '31.10',
+                location: 'Bristol',
+                venue: 'Document',
+                href: 'https://www.skiddle.com/whats-on/Bristol/DOCUMENT-Bristol/MHITR-Halloween-Bristol-w-Hedex-Basslayerz--Raze-Soundsystem/42568064/',
+                hrefLabel: 'Tickets SOLD OUT',
             },
 
         ]
